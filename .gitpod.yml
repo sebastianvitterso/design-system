@@ -13,11 +13,11 @@ tasks:
     command: pnpm build:utils
     openMode: split-right
   - name: Lint
-    init: gp sync-await build-utils
+    init: gp sync-await build:utils
     command: pnpm lint:core-react
     openMode: split-right
   - name: Test
-    init: gp sync-await build-utils
+    init: gp sync-await build:utils
     command: pnpm test:core-react
     openMode: split-right
 
