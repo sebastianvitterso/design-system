@@ -9,11 +9,13 @@ tasks:
       gp sync-done install
     command: pnpm storybook:core-react
   - name: Build-utils
-    init: gp sync-await install
-    command: pnpm build:utils
+    init: |
+      gp sync-await install
+      gp sync-done build-utils
+    command: pnpm build-utils
     openMode: split-right
   - name: Lint
-    init: gp sync-await build:utils
+    init: gp sync-await build-utils
     command: pnpm lint:core-react
     openMode: split-right
   - name: Test
