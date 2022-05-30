@@ -2,4 +2,5 @@ FROM gitpod/workspace-full
 
 USER gitpod
 
-RUN brew install pnpm@7
+RUN brew update
+RUN brew install pnpm
