@@ -2,19 +2,19 @@
 #  file: .gitpod.Dockerfile
 
 tasks:
-  - name: Install pnpm
-    init: gp sync-done pnpm
-    command: npm i -g pnpm
-  - name: Install root deps
-    init: |
-      gp sync-await pnpm
-      gp sync-done root
-    command: pnpm install
-  - name: Build utils
-    init: |
-      gp sync-await root
-      gp sync-done utils
-    command: pnpm build:utils
+  # - name: Install pnpm
+  #   init: gp sync-done pnpm
+  #   command: npm i -g pnpm
+  # - name: Install root deps
+  #   init: |
+  #     gp sync-await pnpm
+  #     gp sync-done root
+  #   command: pnpm install
+  # - name: Build utils
+  #   init: |
+  #     gp sync-await root
+  #     gp sync-done utils
+  #   command: pnpm build:utils
   # - name: Install packages
   #   init: |
   #     gp sync-await utils
