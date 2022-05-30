@@ -5,27 +5,31 @@ tasks:
   - name: Install pnpm
     init: gp sync-done pnpm
     command: npm i -g pnpm
-  - name: Build utils
+  - name: Install root deps
     init: |
       gp sync-await pnpm
-      pnpm install
+      gp sync-done root
+    command: pnpm install
+  - name: Build utils
+    init: |
+      gp sync-await root
       gp sync-done utils
     command: pnpm build:utils
-  - name: Install packages
-    init: |
-      gp sync-await utils
-      pnpm recursive install --filter ./packages
-      gp sync-done install
-    command: pnpm storybook:core-react
-    openMode: split-right
-  - name: Lint
-    init: gp sync-await install
-    command: pnpm lint:core-react
-    openMode: split-right
-  - name: Test
-    init: gp sync-await install
-    command: pnpm test:core-react
-    openMode: split-right
+  # - name: Install packages
+  #   init: |
+  #     gp sync-await utils
+  #     pnpm recursive install --filter ./packages
+  #     gp sync-done install
+  #   command: pnpm storybook:core-react
+  #   openMode: split-right
+  # - name: Lint
+  #   init: gp sync-await install
+  #   command: pnpm lint:core-react
+  #   openMode: split-right
+  # - name: Test
+  #   init: gp sync-await install
+  #   command: pnpm test:core-react
+  #   openMode: split-right
 
 ports:
   - port: 9000
