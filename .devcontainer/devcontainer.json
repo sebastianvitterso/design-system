@@ -56,7 +56,7 @@
       "onAutoForward": "notify"
     }
   },
-  "onCreateCommand": "pnpm install && pnpm recursive install --filter ./packages",
+  "onCreateCommand": "pnpm install && pnpm build:utils && pnpm recursive install --filter ./packages",
   "remoteUser": "node",
   "features": {
     "docker-in-docker": "20.10",
