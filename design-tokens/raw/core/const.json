@@ -76,6 +76,10 @@
           "value": "1.5",
           "type": "other"
         },
+        "sizingMultiplier": {
+          "value": "{eds.theme.dimensionScale.sizingMultiplier}",
+          "type": "other"
+        },
         "base": {
           "value": "{eds.theme.dimensionScale.base}",
           "type": "other"

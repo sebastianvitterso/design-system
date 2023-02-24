@@ -73,7 +73,7 @@
         "button": {
           "value": {
             "height": "{eds.core.dimensionScale.base}",
-            "horizontalPadding": "{eds.core.sizingScale.static.3}",
+            "horizontalPadding": "{eds.core.sizingScale.3}",
             "borderRadius": "{eds.core.shape.rounded.medium.all.borderRadius}",
             "verticalPadding": "0",
             "width": "100"

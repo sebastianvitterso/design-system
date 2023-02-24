@@ -9,7 +9,11 @@
       },
       "dimensionScale": {
         "base": {
-          "value": "{eds.core.const.baseDimension} / {eds.core.dimensionScale.densityMultiplier}^2",
+          "value": "{eds.core.const.gridInterval} * floor({eds.core.const.baseDimension} / {eds.core.dimensionScale.densityMultiplier}^2 / {eds.core.const.gridInterval})",
+          "type": "other"
+        },
+        "sizingMultiplier": {
+          "value": "1.3",
           "type": "other"
         }
       }

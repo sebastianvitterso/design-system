@@ -8,12 +8,12 @@
         }
       },
       "dimensionScale": {
-        "base": {
-          "value": "36",
+        "sizingMultiplier": {
+          "value": "1.5",
           "type": "other"
         },
-        "densityMultiplier": {
-          "value": "1.5",
+        "base": {
+          "value": "36",
           "type": "other"
         }
       }
