@@ -1,0 +1,70 @@
+{
+  "component": {
+    "paper": {
+      "bg-default": {
+        "value": "{theme.palettes.elevation-bg.none} ",
+        "type": "color"
+      },
+      "corners": {
+        "rounded": {
+          "value": "{core.borderRadii.rounded}",
+          "type": "borderRadius"
+        },
+        "squared": {
+          "value": "{core.borderRadii.none}",
+          "type": "borderRadius"
+        }
+      },
+      "roundedCorners": {
+        "value": "true",
+        "type": "boolean"
+      },
+      "elevation": {
+        "none": {
+          "value": "{theme.elevation.none}",
+          "type": "boxShadow"
+        },
+        "xs": {
+          "value": "{theme.elevation.xs}",
+          "type": "boxShadow"
+        },
+        "sm": {
+          "value": "{theme.elevation.sm}",
+          "type": "boxShadow"
+        },
+        "md": {
+          "value": "{theme.elevation.md}",
+          "type": "boxShadow"
+        },
+        "lg": {
+          "value": "{theme.elevation.lg}",
+          "type": "boxShadow"
+        },
+        "xl": {
+          "value": "{theme.elevation.xl}",
+          "type": "boxShadow"
+        }
+      },
+      "bg-xs": {
+        "value": "{theme.palettes.elevation-bg.xs}",
+        "type": "color"
+      },
+      "bg-sm": {
+        "value": "{theme.palettes.elevation-bg.sm} ",
+        "type": "color"
+      },
+      "bg-md": {
+        "value": "{theme.palettes.elevation-bg.md} ",
+        "type": "color"
+      },
+      "bg-lg": {
+        "value": "{theme.palettes.elevation-bg.lg} ",
+        "type": "color"
+      },
+      "bg-xl": {
+        "value": "{theme.palettes.elevation-bg.xl} ",
+        "type": "color"
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "density": {
+    "typeScale": {
+      "base": {
+        "value": "16",
+        "type": "other"
+      }
+    },
+    "dimensionScale": {
+      "sizingMultiplier": {
+        "value": "1.5",
+        "type": "other"
+      },
+      "base": {
+        "value": "36",
+        "type": "other"
+      }
+    }
+  }
+}

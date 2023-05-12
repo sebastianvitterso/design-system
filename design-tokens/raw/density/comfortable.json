@@ -1,0 +1,20 @@
+{
+  "density": {
+    "typeScale": {
+      "base": {
+        "value": "14",
+        "type": "other"
+      }
+    },
+    "dimensionScale": {
+      "base": {
+        "value": "{core.const.gridInterval} * floor({core.const.baseDimension} / {core.dimensionScale.densityMultiplier}^1 / {core.const.gridInterval})",
+        "type": "other"
+      },
+      "sizingMultiplier": {
+        "value": "1.4",
+        "type": "other"
+      }
+    }
+  }
+}

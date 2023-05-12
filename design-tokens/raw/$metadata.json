@@ -1,0 +1,23 @@
+{
+  "tokenSetOrder": [
+    "core/const",
+    "core/border",
+    "core/typography",
+    "core/spacing",
+    "core/color",
+    "core/dimensions",
+    "core/elevation",
+    "base/🔳 Shape",
+    "component/📄 Paper",
+    "component/button",
+    "component/actionButton",
+    "theme/⚪️ Light",
+    "theme/⚫️ Dark",
+    "density/default",
+    "density/comfortable",
+    "density/compact",
+    "styles/actions",
+    "styles/typography",
+    "presentation/presentation"
+  ]
+}
