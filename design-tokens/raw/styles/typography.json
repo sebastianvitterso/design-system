@@ -55,8 +55,8 @@
           "fontFamily": "{core.fontFamily.default}",
           "fontWeight": "{core.fontWeight.regular}",
           "paragraphSpacing": "{core.paragraphSpacing.1}",
-          "fontSize": "{core.typography.comfortable.1.fontSize}",
-          "lineHeight": "{core.typography.comfortable.1.lineHeight}",
+          "fontSize": "{core.typography.tight.1.fontSize}",
+          "lineHeight": "{core.typography.tight.1.lineHeight}",
           "textCase": "",
           "letterSpacing": "0"
         },
