@@ -3,6 +3,7 @@
   "version": "0.0.4",
   "private": true,
   "dependencies": {
+    "style-dictionary": "^3.8.0",
     "token-transformer": "^0.0.33"
   }
 }
