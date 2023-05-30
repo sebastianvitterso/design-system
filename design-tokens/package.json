@@ -1,0 +1,8 @@
+{
+  "name": "@equinor/design-tokens",
+  "version": "0.0.4",
+  "private": true,
+  "dependencies": {
+    "token-transformer": "^0.0.33"
+  }
+}
