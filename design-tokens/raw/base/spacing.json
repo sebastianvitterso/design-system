@@ -100,5 +100,18 @@
         }
       }
     }
+  },
+  "semantic": {
+    "ui-shell": {
+      "inset": {
+        "md": {
+          "value": {
+            "verticalPadding": "{base.space.stack.lg}",
+            "horizontalPadding": "{base.space.inline.lg}"
+          },
+          "type": "composition"
+        }
+      }
+    }
   }
 }
