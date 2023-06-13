@@ -1,46 +1,103 @@
 {
   "base": {
-    "type": "spacing",
-    "inline": {
-      "xxs": {
-        "value": "4"
+    "type": "composition",
+    "space": {
+      "inline": {
+        "xxs": {
+          "value": "4"
+        },
+        "xs": {
+          "value": "8"
+        },
+        "sm": {
+          "value": "12"
+        },
+        "md": {
+          "value": "16"
+        },
+        "lg": {
+          "value": "24"
+        },
+        "xl": {
+          "value": "32",
+          "description": "Not in use in components"
+        }
       },
-      "xs": {
-        "value": "8"
+      "stack": {
+        "xxs": {
+          "value": "4"
+        },
+        "xs": {
+          "value": "8"
+        },
+        "sm": {
+          "value": "12"
+        },
+        "md": {
+          "value": "16"
+        },
+        "lg": {
+          "value": "24"
+        },
+        "xl": {
+          "value": "32",
+          "description": "Not in use in components"
+        }
       },
-      "sm": {
-        "value": "12"
+      "inset-squish": {
+        "sm": {
+          "value": {
+            "verticalPadding": "{base.space.stack.xs}",
+            "horizontalPadding": "{base.space.inline.md}"
+          },
+          "description": "Tooltip"
+        },
+        "md": {
+          "value": {
+            "verticalPadding": "{base.space.stack.sm}",
+            "horizontalPadding": "{base.space.inline.md}"
+          },
+          "description": "Button, table of contents"
+        },
+        "lg": {
+          "value": {
+            "verticalPadding": "{base.space.stack.md}",
+            "horizontalPadding": "{base.space.inline.lg}"
+          },
+          "description": "Menu item"
+        }
       },
-      "md": {
-        "value": "16"
+      "inset-square": {
+        "sm": {
+          "value": {
+            "verticalPadding": "{base.space.stack.xs}",
+            "horizontalPadding": "{base.space.inline.xs}"
+          },
+          "description": "Chips"
+        },
+        "lg": {
+          "value": {
+            "verticalPadding": "{base.space.stack.md}",
+            "horizontalPadding": "{base.space.inline.md}"
+          },
+          "description": "Accordion"
+        }
       },
-      "lg": {
-        "value": "24"
-      },
-      "xl": {
-        "value": "32",
-        "description": "Not in use in components"
-      }
-    },
-    "block": {
-      "xxs": {
-        "value": "4"
-      },
-      "xs": {
-        "value": "8"
-      },
-      "sm": {
-        "value": "12"
-      },
-      "md": {
-        "value": "16"
-      },
-      "lg": {
-        "value": "24"
-      },
-      "xl": {
-        "value": "32",
-        "description": "Not in use in components"
+      "inset-stretch": {
+        "md": {
+          "value": {
+            "verticalPadding": "{base.space.stack.sm}",
+            "horizontalPadding": "{base.space.inline.xs}"
+          },
+          "description": "Input, pagination"
+        },
+        "lg": {
+          "value": {
+            "verticalPadding": "{base.space.stack.md}",
+            "horizontalPadding": "{base.space.inline.xs}"
+          },
+          "description": "Table"
+        }
       }
     }
   }

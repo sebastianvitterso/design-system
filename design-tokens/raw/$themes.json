@@ -95,9 +95,7 @@
     "selectedTokenSets": {
       "core/color": "source",
       "styles/actions": "enabled",
-      "theme/⚪️ Light": "enabled",
-      "semantic/spacing": "disabled",
-      "base/spacing": "disabled"
+      "theme/⚪️ Light": "enabled"
     },
     "$figmaStyleReferences": {
       "comp.button.allVariants.filled.disabled.backgroundColor": "S:25d2fb5591f99c4992f24feb249b49f726584a87,",
@@ -293,9 +291,7 @@
     "selectedTokenSets": {
       "core/color": "source",
       "styles/actions": "enabled",
-      "theme/⚫️ Dark": "enabled",
-      "semantic/spacing": "disabled",
-      "base/spacing": "disabled"
+      "theme/⚫️ Dark": "enabled"
     },
     "$figmaStyleReferences": {
       "semantic.actions.primary.filled.bg-default": "S:d9d00e77bdc242ca76f7b884736ca3b3a68245c8,",
@@ -396,8 +392,7 @@
     "selectedTokenSets": {
       "density/default": "enabled",
       "styles/typography": "enabled",
-      "component/📄 Paper": "enabled",
-      "semantic/spacing": "enabled"
+      "component/📄 Paper": "enabled"
     },
     "group": "Density"
   },
@@ -429,8 +424,7 @@
     "selectedTokenSets": {
       "density/comfortable": "enabled",
       "styles/typography": "enabled",
-      "component/📄 Paper": "enabled",
-      "semantic/spacing": "enabled"
+      "component/📄 Paper": "enabled"
     },
     "group": "Density"
   },
@@ -462,8 +456,7 @@
     "selectedTokenSets": {
       "density/compact": "enabled",
       "styles/typography": "enabled",
-      "base/🔳 Shape": "enabled",
-      "semantic/spacing": "enabled"
+      "base/🔳 Shape": "enabled"
     },
     "group": "Density"
   }
