@@ -49,49 +49,49 @@
     "squished-inset": {
       "sm": {
         "value": {
-          "horizontalPadding": "{base.inline.md}",
-          "verticalPadding": "{base.block.xs}"
+          "verticalPadding": "{base.block.xs}",
+          "horizontalPadding": "{base.inline.md}"
         },
         "description": "Tooltip"
       },
       "md": {
         "value": {
-          "horizontalPadding": "{base.inline.md}",
-          "verticalPadding": "{base.block.sm}"
+          "verticalPadding": "{base.block.sm}",
+          "horizontalPadding": "{base.inline.md}"
         },
         "description": "Button, table of contents"
+      },
+      "lg": {
+        "value": {
+          "verticalPadding": "{base.block.md}",
+          "horizontalPadding": "{base.inline.lg}"
+        },
+        "description": "Menu item"
       }
     },
     "square-inset": {
       "sm": {
         "value": {
-          "horizontalPadding": "{base.inline.xs}",
-          "verticalPadding": "{base.block.xs}"
+          "verticalPadding": "{base.block.xs}",
+          "horizontalPadding": "{base.inline.xs}"
         },
         "description": "Chips"
       },
-      "md": {
+      "lg": {
         "value": {
-          "horizontalPadding": "{base.inline.md}",
-          "verticalPadding": "{base.block.md}"
+          "verticalPadding": "{base.block.md}",
+          "horizontalPadding": "{base.inline.md}"
         },
         "description": "Accordion"
       }
     },
     "stretch-inset": {
-      "sm": {
-        "value": {
-          "horizontalPadding": "{base.inline.xs}",
-          "verticalPadding": "{base.block.sm}"
-        },
-        "description": "Input, pagination"
-      },
       "md": {
         "value": {
-          "horizontalPadding": "{base.inline.md}",
-          "verticalPadding": "{base.block.md}"
+          "verticalPadding": "{base.block.sm}",
+          "horizontalPadding": "{base.inline.xs}"
         },
-        "description": "Accordion"
+        "description": "Input, pagination"
       }
     }
   }
