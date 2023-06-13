@@ -1,7 +1,53 @@
 {
   "semantic": {
+    "type": "typography",
     "label": {
-      "type": "typography",
+      "xs": {
+        "value": {
+          "fontFamily": "{core.fontFamily.default}",
+          "fontWeight": "{core.fontWeight.regular}",
+          "paragraphSpacing": "{core.paragraphSpacing.0}",
+          "fontSize": "{core.typography.tight.0.fontSize}",
+          "lineHeight": "{core.typography.tight.0.lineHeight}",
+          "textCase": "uppercase",
+          "letterSpacing": "0.8"
+        }
+      },
+      "sm": {
+        "value": {
+          "fontFamily": "{core.fontFamily.default}",
+          "fontWeight": "{core.fontWeight.regular}",
+          "paragraphSpacing": "0",
+          "fontSize": "{core.typography.tight.1.fontSize}",
+          "lineHeight": "{core.typography.tight.1.lineHeight}",
+          "textCase": "",
+          "letterSpacing": "0"
+        }
+      },
+      "md": {
+        "value": {
+          "fontFamily": "{core.fontFamily.default}",
+          "fontWeight": "{core.fontWeight.regular}",
+          "paragraphSpacing": "0",
+          "fontSize": "{core.typography.tight.2.fontSize}",
+          "lineHeight": "{core.typography.tight.2.lineHeight}",
+          "textCase": "",
+          "letterSpacing": "0"
+        }
+      },
+      "lg": {
+        "value": {
+          "fontFamily": "{core.fontFamily.default}",
+          "fontWeight": "{core.fontWeight.regular}",
+          "paragraphSpacing": "0",
+          "fontSize": "{core.typography.tight.3.fontSize}",
+          "lineHeight": "{core.typography.tight.3.lineHeight}",
+          "textCase": "",
+          "letterSpacing": "0"
+        }
+      }
+    },
+    "label-strong": {
       "xs": {
         "value": {
           "fontFamily": "{core.fontFamily.default}",
@@ -33,8 +79,7 @@
           "lineHeight": "{core.typography.tight.2.lineHeight}",
           "textCase": "",
           "letterSpacing": "0"
-        },
-        "type": "typography"
+        }
       },
       "lg": {
         "value": {
@@ -45,8 +90,7 @@
           "lineHeight": "{core.typography.tight.3.lineHeight}",
           "textCase": "",
           "letterSpacing": "0"
-        },
-        "type": "typography"
+        }
       }
     },
     "body-dense": {
@@ -59,8 +103,7 @@
           "lineHeight": "{core.typography.tight.1.lineHeight}",
           "textCase": "",
           "letterSpacing": "0"
-        },
-        "type": "typography"
+        }
       },
       "sm": {
         "value": {
@@ -71,8 +114,7 @@
           "lineHeight": "{core.typography.compressed.2.lineHeight}",
           "textCase": "",
           "letterSpacing": "0"
-        },
-        "type": "typography"
+        }
       },
       "md": {
         "value": {
@@ -83,8 +125,7 @@
           "lineHeight": "{core.typography.comfortable.3.lineHeight}",
           "textCase": "",
           "letterSpacing": "0"
-        },
-        "type": "typography"
+        }
       },
       "lg": {
         "value": {
@@ -95,8 +136,7 @@
           "lineHeight": "{core.typography.comfortable.4.lineHeight}",
           "textCase": "",
           "letterSpacing": "0"
-        },
-        "type": "typography"
+        }
       }
     },
     "body": {
@@ -109,8 +149,7 @@
           "lineHeight": "{core.typography.comfortable.1.lineHeight}",
           "textCase": "",
           "letterSpacing": "0"
-        },
-        "type": "typography"
+        }
       },
       "sm": {
         "value": {
@@ -121,8 +160,7 @@
           "lineHeight": "{core.typography.comfortable.2.lineHeight}",
           "textCase": "",
           "letterSpacing": "0"
-        },
-        "type": "typography"
+        }
       },
       "md": {
         "value": {
@@ -133,8 +171,7 @@
           "lineHeight": "{core.typography.relaxed.3.lineHeight}",
           "textCase": "",
           "letterSpacing": "0"
-        },
-        "type": "typography"
+        }
       },
       "lg": {
         "value": {
@@ -145,8 +182,7 @@
           "lineHeight": "{core.typography.relaxed.4.lineHeight}",
           "textCase": "",
           "letterSpacing": "0"
-        },
-        "type": "typography"
+        }
       }
     },
     "header": {
@@ -159,8 +195,7 @@
           "lineHeight": "{core.typography.comfortable.2.lineHeight}",
           "textCase": "",
           "letterSpacing": "0"
-        },
-        "type": "typography"
+        }
       },
       "sm": {
         "value": {
@@ -171,8 +206,7 @@
           "lineHeight": "{core.typography.comfortable.3.lineHeight}",
           "textCase": "",
           "letterSpacing": "0"
-        },
-        "type": "typography"
+        }
       },
       "md": {
         "value": {
@@ -183,8 +217,7 @@
           "lineHeight": "{core.typography.compressed.4.lineHeight}",
           "textCase": "",
           "letterSpacing": "0"
-        },
-        "type": "typography"
+        }
       },
       "lg": {
         "value": {
@@ -195,8 +228,7 @@
           "lineHeight": "{core.typography.compressed.5.lineHeight}",
           "textCase": "",
           "letterSpacing": "0"
-        },
-        "type": "typography"
+        }
       }
     },
     "display": {
@@ -209,8 +241,7 @@
           "lineHeight": "{core.typography.tight.6.lineHeight}",
           "textCase": "",
           "letterSpacing": "0"
-        },
-        "type": "typography"
+        }
       },
       "sm": {
         "value": {
@@ -221,8 +252,7 @@
           "lineHeight": "{core.typography.compressed.7.lineHeight}",
           "textCase": "",
           "letterSpacing": "0"
-        },
-        "type": "typography"
+        }
       },
       "md": {
         "value": {
@@ -233,8 +263,7 @@
           "lineHeight": "{core.typography.compressed.8.lineHeight}",
           "textCase": "",
           "letterSpacing": "0"
-        },
-        "type": "typography"
+        }
       },
       "lg": {
         "value": {
@@ -245,8 +274,7 @@
           "lineHeight": "{core.typography.compressed.9.lineHeight}",
           "textCase": "",
           "letterSpacing": "0"
-        },
-        "type": "typography"
+        }
       }
     }
   }

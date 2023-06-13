@@ -14,20 +14,21 @@
       "styles/typography": "enabled",
       "styles/actions": "enabled",
       "core/elevation": "enabled",
-      "base/🔳 Shape": "source"
+      "base/🔳 Shape": "source",
+      "base/Spacing": "disabled"
     },
     "group": "Base",
     "$figmaStyleReferences": {
-      "presentation.presentation.small": "S:12d3518983659ac59491be9def50569a51618fad,",
-      "presentation.presentation.caption": "S:5f580a139c7d63cef64758dcfd226691ec6b9df3,",
-      "presentation.presentation.captionBold": "S:7c3b0f0f3d9db2bf051b78d024a89e682f3661fd,",
-      "presentation.presentation.bullets": "S:277d0c3eaf26dd118a73bdb90fc17b0f1407b696,",
-      "presentation.presentation.ingress": "S:c89fa95415452c1a573128be770200e488a99ea3,",
-      "presentation.presentation.titleSm": "S:0173f6c132556bfe686f604b2421905a97e04dde,",
-      "presentation.presentation.titleMd": "S:b2cc36c96d9311219e1b48885a6b33981eb2c402,",
-      "presentation.presentation.titleLg": "S:83acd06c2557baa4b00155c36d9dc79476736c4e,",
-      "presentation.presentation.displaySm": "S:67b558a38961cea1f6a86ba91f414093fdc7fa43,",
-      "presentation.presentation.displayMd": "S:2593134499453c2c13103f55218232f3a87d03c2,",
+      "presentation.presentation.small": "S:2ac08275882a9eb0a6a54b23b30a722d210b952f,",
+      "presentation.presentation.caption": "S:861f48cac6694c4fc4e16755a322fe36ef87dc6b,",
+      "presentation.presentation.captionBold": "S:970469c0a0c8dbfeda2d016226a0f2a8015bbd40,",
+      "presentation.presentation.bullets": "S:21b8c4c8afc7d0b413e5ad250fc06fcbbc4cdd0e,",
+      "presentation.presentation.ingress": "S:5304307f086452fcecce4f8cdb53e1c4e27f72b8,",
+      "presentation.presentation.titleSm": "S:ae8d9d31c6ad679d772822c017c1c06757c1c2ad,",
+      "presentation.presentation.titleMd": "S:2237f9095870f689ed1ede392076f58ebc126719,",
+      "presentation.presentation.titleLg": "S:b414cb2de02007d5cc6b55c29bde9f0808fbb7de,",
+      "presentation.presentation.displaySm": "S:6afc5d529673a9a3df9be5838d086a425c26a894,",
+      "presentation.presentation.displayMd": "S:7272220749205e7d593c0d26daacaf7f81b0e948,",
       "presentation.presentation.on-content": "S:11d77bf0e20596bd59fc1087b10a4117feea82cc,",
       "presentation.presentation.bg-content": "S:2dd0c0f23bbba79b35ebcef0c00abe5098e73a71,",
       "presentation.presentation.bg-sidebar-default": "S:ed388f4d381ffaa367b64b0e345c2a05e4b929d6,",
@@ -94,7 +95,8 @@
     "selectedTokenSets": {
       "core/color": "source",
       "styles/actions": "enabled",
-      "theme/⚪️ Light": "enabled"
+      "theme/⚪️ Light": "enabled",
+      "base/Spacing": "disabled"
     },
     "$figmaStyleReferences": {
       "comp.button.allVariants.filled.disabled.backgroundColor": "S:25d2fb5591f99c4992f24feb249b49f726584a87,",
@@ -290,7 +292,8 @@
     "selectedTokenSets": {
       "core/color": "source",
       "styles/actions": "enabled",
-      "theme/⚫️ Dark": "enabled"
+      "theme/⚫️ Dark": "enabled",
+      "base/Spacing": "disabled"
     },
     "$figmaStyleReferences": {
       "semantic.actions.primary.filled.bg-default": "S:d9d00e77bdc242ca76f7b884736ca3b3a68245c8,",
@@ -365,30 +368,35 @@
     "selectedTokenSets": {
       "density/default": "enabled",
       "styles/typography": "enabled",
-      "component/📄 Paper": "enabled"
+      "component/📄 Paper": "enabled",
+      "base/Spacing": "disabled"
     },
     "group": "Density",
     "$figmaStyleReferences": {
-      "semantic.label.xs": "S:fe6044416c04415bee7f8aae98070553964692f5,",
-      "semantic.label.sm": "S:4866985f0fce3bbfc95a2df700c3ca214b59eb89,",
-      "semantic.label.md": "S:57bd37c81b4f48407020abd129ee68f80013b168,",
-      "semantic.label.lg": "S:c6aa9338d06adb57808b33ed497b91bb4a7dfb1c,",
-      "semantic.body-dense.xs": "S:db1f3ced5cd2031ec02eb547d216d26454a080e0,",
-      "semantic.body-dense.sm": "S:94165cb4b1698a0541ff473ff88121cfd4891fe5,",
-      "semantic.body-dense.md": "S:6da7be72e6e73510cf240ed6c0fa37f9ae8fca10,",
-      "semantic.body-dense.lg": "S:fc64cc405d4bcf6ababce89eaac4a633f4e64e28,",
-      "semantic.body.xs": "S:fe7f8ceee2f6bb2f74b565952f01eb949dbfccf2,",
-      "semantic.body.sm": "S:4eb0388d498396e5447dc6fc56130fab564168aa,",
-      "semantic.body.md": "S:ab04e893500e3cdf5f5a31a71ce128040cd003a8,",
-      "semantic.body.lg": "S:95dc4e32d6bc5967590a1c1d12c8ec09c5d10783,",
-      "semantic.header.xs": "S:78f309ec2c91bb7943314b671f05b78f13a0b8f1,",
-      "semantic.header.sm": "S:139ed7ff2c3d78bb40eb52162d1427d49d47891f,",
-      "semantic.header.md": "S:d24a10508c9efe75cae79d51d54ce7dbc5d08ae9,",
-      "semantic.header.lg": "S:313aacda81ba7b5655cd9b0a3a9138ae65f65c99,",
-      "semantic.display.xs": "S:f78134d9489a655583c91cd867a2457b3d85045e,",
-      "semantic.display.sm": "S:b4f309e6e76de534f188cac12aba561680d3c986,",
-      "semantic.display.md": "S:d05e84ee15128f3e67cc0379ad7a68369734f0cd,",
-      "semantic.display.lg": "S:629bc3a6f31e511e0c2b2621df59c3ba1628d360,"
+      "semantic.label.xs": "S:de44ed64ee03136d72fddeee2ee23f6d61b78e54,",
+      "semantic.label.sm": "S:142afaaadc92890f680158e4a6897fe816d3e242,",
+      "semantic.label.md": "S:dd340ca9c8877985f63e0436d348eb0e9b5347c3,",
+      "semantic.label.lg": "S:db25586f663a317e9f2efd4a7480021d2f682f91,",
+      "semantic.body-dense.xs": "S:852c3caa2a48843aa456eff911c07c4032343a38,",
+      "semantic.body-dense.sm": "S:41c1c5835f4862853112316651ba8d162ef0abb4,",
+      "semantic.body-dense.md": "S:5624fb6e717b5a8359e460a90ad0188e2ee304c7,",
+      "semantic.body-dense.lg": "S:8d8dafc69bd2ed40ff72a21077b9e6eadeb3cba6,",
+      "semantic.body.xs": "S:228311d7521c33e348a32b64bff069edc0eb8322,",
+      "semantic.body.sm": "S:15035198783827f6aef67f1b6897728a84193fab,",
+      "semantic.body.md": "S:9a5d5fae7650bcb611eaa8b28c4630174b66c670,",
+      "semantic.body.lg": "S:b9249b6d18e5ff3dbea9abb9e6b6f77228853c8f,",
+      "semantic.header.xs": "S:b9a2e738941d3a27dd55a80f41fecb39a595fc31,",
+      "semantic.header.sm": "S:8522c60b6e7ac55c0a9239bd19b7fe7166d12ec0,",
+      "semantic.header.md": "S:caa092ea13b4dca1000468b94ae169f3af10ec6a,",
+      "semantic.header.lg": "S:a1048afb0ea97d912248c4a02aabfe190718ca49,",
+      "semantic.display.xs": "S:76029f624ae2253bc9be217f6089c7df2769c866,",
+      "semantic.display.sm": "S:a26764f6a317500b1544c8ecb14ae0fb07063a86,",
+      "semantic.display.md": "S:30ab0c294224ffcd7020bd0033030e7951d9f7d4,",
+      "semantic.display.lg": "S:2afec454125af0600511484b949f2740a14977ff,",
+      "semantic.label-strong.xs": "S:88d74db1a249912223457d7e2618fc96177290b9,",
+      "semantic.label-strong.sm": "S:c0cfd43531f2a069695e2809f9c0318899bb53a3,",
+      "semantic.label-strong.md": "S:22cf1bf6f70f2f932b3c328d2351aa93273cc3a0,",
+      "semantic.label-strong.lg": "S:942c3222af587e30d9e1f521479983956ceedd7e,"
     }
   },
   {
@@ -397,7 +405,8 @@
     "selectedTokenSets": {
       "density/comfortable": "enabled",
       "styles/typography": "enabled",
-      "component/📄 Paper": "enabled"
+      "component/📄 Paper": "enabled",
+      "base/Spacing": "disabled"
     },
     "group": "Density",
     "$figmaStyleReferences": {
@@ -429,7 +438,8 @@
     "selectedTokenSets": {
       "density/compact": "enabled",
       "styles/typography": "enabled",
-      "base/🔳 Shape": "enabled"
+      "base/🔳 Shape": "enabled",
+      "base/Spacing": "disabled"
     },
     "group": "Density",
     "$figmaStyleReferences": {

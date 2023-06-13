@@ -8,6 +8,7 @@
     "core/dimensions",
     "core/elevation",
     "base/🔳 Shape",
+    "base/Spacing",
     "component/📄 Paper",
     "component/button",
     "component/actionButton",
