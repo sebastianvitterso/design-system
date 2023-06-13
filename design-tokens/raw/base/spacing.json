@@ -96,7 +96,7 @@
             "verticalPadding": "{base.space.stack.md}",
             "horizontalPadding": "{base.space.inline.xs}"
           },
-          "description": "Table"
+          "description": "Table cell"
         }
       }
     }
