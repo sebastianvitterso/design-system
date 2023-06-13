@@ -47,12 +47,51 @@
   "semantic": {
     "type": "composition",
     "squished-inset": {
+      "sm": {
+        "value": {
+          "horizontalPadding": "{base.inline.md}",
+          "verticalPadding": "{base.block.xs}"
+        },
+        "description": "Tooltip"
+      },
       "md": {
         "value": {
           "horizontalPadding": "{base.inline.md}",
           "verticalPadding": "{base.block.sm}"
         },
         "description": "Button, table of contents"
+      }
+    },
+    "square-inset": {
+      "sm": {
+        "value": {
+          "horizontalPadding": "{base.inline.xs}",
+          "verticalPadding": "{base.block.xs}"
+        },
+        "description": "Chips"
+      },
+      "md": {
+        "value": {
+          "horizontalPadding": "{base.inline.md}",
+          "verticalPadding": "{base.block.md}"
+        },
+        "description": "Accordion"
+      }
+    },
+    "stretch-inset": {
+      "sm": {
+        "value": {
+          "horizontalPadding": "{base.inline.xs}",
+          "verticalPadding": "{base.block.sm}"
+        },
+        "description": "Input, pagination"
+      },
+      "md": {
+        "value": {
+          "horizontalPadding": "{base.inline.md}",
+          "verticalPadding": "{base.block.md}"
+        },
+        "description": "Accordion"
       }
     }
   }
