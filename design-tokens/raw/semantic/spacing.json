@@ -1,0 +1,55 @@
+{
+  "semantic": {
+    "type": "composition",
+    "component": {
+      "squished-inset": {
+        "sm": {
+          "value": {
+            "verticalPadding": "{base.block.xs}",
+            "horizontalPadding": "{base.inline.md}"
+          },
+          "description": "Tooltip"
+        },
+        "md": {
+          "value": {
+            "verticalPadding": "{base.block.sm}",
+            "horizontalPadding": "{base.inline.md}"
+          },
+          "description": "Button, table of contents"
+        },
+        "lg": {
+          "value": {
+            "verticalPadding": "{base.block.md}",
+            "horizontalPadding": "{base.inline.lg}"
+          },
+          "description": "Menu item"
+        }
+      },
+      "square-inset": {
+        "sm": {
+          "value": {
+            "verticalPadding": "{base.block.xs}",
+            "horizontalPadding": "{base.inline.xs}"
+          },
+          "description": "Chips"
+        },
+        "lg": {
+          "value": {
+            "verticalPadding": "{base.block.md}",
+            "horizontalPadding": "{base.inline.md}"
+          },
+          "description": "Accordion"
+        }
+      },
+      "stretch-inset": {
+        "md": {
+          "value": {
+            "verticalPadding": "{base.block.sm}",
+            "horizontalPadding": "{base.inline.xs}"
+          },
+          "description": "Input, pagination"
+        }
+      }
+    }
+  }
+}
