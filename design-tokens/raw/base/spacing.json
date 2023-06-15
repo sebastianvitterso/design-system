@@ -1,8 +1,8 @@
 {
   "base": {
-    "type": "composition",
     "space": {
       "inline": {
+        "type": "space",
         "xxs": {
           "value": "4"
         },
@@ -24,6 +24,7 @@
         }
       },
       "stack": {
+        "type": "space",
         "xxs": {
           "value": "4"
         },
@@ -45,6 +46,7 @@
         }
       },
       "inset-squish": {
+        "type": "space",
         "sm": {
           "value": {
             "verticalPadding": "{base.space.stack.xs}",
@@ -68,6 +70,7 @@
         }
       },
       "inset-square": {
+        "type": "space",
         "sm": {
           "value": {
             "verticalPadding": "{base.space.stack.xs}",
@@ -84,6 +87,7 @@
         }
       },
       "inset-stretch": {
+        "type": "space",
         "md": {
           "value": {
             "verticalPadding": "{base.space.stack.sm}",
