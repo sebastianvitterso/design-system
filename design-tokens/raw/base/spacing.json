@@ -16,11 +16,11 @@
           "value": "16"
         },
         "lg": {
-          "value": "24"
+          "value": "20",
+          "description": "Not in use"
         },
         "xl": {
-          "value": "32",
-          "description": "Not in use in components"
+          "value": "24"
         }
       },
       "stack": {
@@ -38,15 +38,15 @@
           "value": "16"
         },
         "lg": {
-          "value": "24"
+          "value": "20",
+          "description": "Not in use"
         },
         "xl": {
-          "value": "32",
-          "description": "Not in use in components"
+          "value": "24"
         }
       },
       "inset-squish": {
-        "type": "space",
+        "type": "composition",
         "sm": {
           "value": {
             "verticalPadding": "{base.space.stack.xs}",
@@ -64,13 +64,13 @@
         "lg": {
           "value": {
             "verticalPadding": "{base.space.stack.md}",
-            "horizontalPadding": "{base.space.inline.lg}"
+            "horizontalPadding": "{base.space.inline.xl}"
           },
           "description": "Menu item"
         }
       },
       "inset-square": {
-        "type": "space",
+        "type": "composition",
         "sm": {
           "value": {
             "verticalPadding": "{base.space.stack.xs}",
@@ -87,7 +87,7 @@
         }
       },
       "inset-stretch": {
-        "type": "space",
+        "type": "composition",
         "md": {
           "value": {
             "verticalPadding": "{base.space.stack.sm}",
@@ -110,8 +110,8 @@
       "inset": {
         "md": {
           "value": {
-            "verticalPadding": "{base.space.stack.lg}",
-            "horizontalPadding": "{base.space.inline.lg}"
+            "verticalPadding": "{base.space.stack.xl}",
+            "horizontalPadding": "{base.space.inline.xl}"
           },
           "type": "composition"
         }
