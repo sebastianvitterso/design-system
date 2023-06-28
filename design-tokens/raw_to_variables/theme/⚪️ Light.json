@@ -1,0 +1,258 @@
+{
+  "theme": {
+    "elevation": {
+      "type": "boxShadow",
+      "xs": {
+        "value": [
+          {
+            "color": "#00000033",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "1",
+            "blur": "5",
+            "spread": "0"
+          },
+          {
+            "color": "#0000001f",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "3",
+            "blur": "4",
+            "spread": "0"
+          },
+          {
+            "color": "#00000024",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "2",
+            "blur": "4",
+            "spread": "0"
+          }
+        ]
+      },
+      "sm": {
+        "value": [
+          {
+            "color": "#00000033",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "1",
+            "blur": "10",
+            "spread": "0"
+          },
+          {
+            "color": "#0000001f",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "4",
+            "blur": "5",
+            "spread": "0"
+          },
+          {
+            "color": "#00000024",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "2",
+            "blur": "4",
+            "spread": "0"
+          }
+        ]
+      },
+      "md": {
+        "value": [
+          {
+            "color": "#00000033",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "4",
+            "blur": "5",
+            "spread": "0"
+          },
+          {
+            "color": "#0000001f",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "3",
+            "blur": "14",
+            "spread": "0"
+          },
+          {
+            "color": "#00000024",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "8",
+            "blur": "10",
+            "spread": "0"
+          }
+        ]
+      },
+      "lg": {
+        "value": [
+          {
+            "color": "#00000033",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "7",
+            "blur": "8",
+            "spread": "0"
+          },
+          {
+            "color": "#0000001f",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "5",
+            "blur": "22",
+            "spread": "0"
+          },
+          {
+            "color": "#00000024",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "12",
+            "blur": "17",
+            "spread": "0"
+          }
+        ]
+      },
+      "xl": {
+        "value": [
+          {
+            "color": "#00000033",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "11",
+            "blur": "15",
+            "spread": "0"
+          },
+          {
+            "color": "#0000001f",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "9",
+            "blur": "46",
+            "spread": "0"
+          },
+          {
+            "color": "#00000024",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "24",
+            "blur": "38",
+            "spread": "0"
+          }
+        ]
+      },
+      "none": {
+        "value": {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "0",
+          "color": "#000000",
+          "type": "dropShadow"
+        }
+      }
+    },
+    "palettes": {
+      "type": "color",
+      "primary": {
+        "default": {
+          "value": "{core.color.mossGreen1.1100}",
+          "description": "Button background"
+        },
+        "onPrimary": {
+          "value": "{core.color.neutrals.0}",
+          "description": "Button text + icon"
+        },
+        "subtle": {
+          "value": "{core.color.mossGreen1.200}",
+          "description": "Button ghost + outline hover"
+        }
+      },
+      "secondary": {
+        "default": {
+          "value": "{core.color.blueGrey.1300}",
+          "description": "Button background"
+        },
+        "onSecondary": {
+          "value": "{core.color.neutrals.0}",
+          "description": "Button text + icon"
+        },
+        "subtle": {
+          "value": "{core.color.blueGrey.300}",
+          "description": "Button ghost + outline hover"
+        }
+      },
+      "danger": {
+        "default": {
+          "value": "{core.color.redCold.900}",
+          "description": "Button background"
+        },
+        "onError": {
+          "value": "{core.color.neutrals.0}",
+          "description": "Button text + icon"
+        },
+        "subtle": {
+          "value": "{core.color.redCold.400}",
+          "description": "Button ghost + outline hover"
+        }
+      },
+      "disabled": {
+        "default": {
+          "value": "{core.color.neutrals.300}",
+          "description": "Button background"
+        },
+        "onDisabled": {
+          "value": "{core.color.neutrals.500}",
+          "description": "Button text + icon"
+        }
+      },
+      "bg": {
+        "surface1": {
+          "value": "{core.color.neutrals.0}",
+          "type": "color"
+        },
+        "surface2": {
+          "value": "{core.color.neutrals.100}",
+          "type": "color"
+        }
+      },
+      "elevation-bg": {
+        "none": {
+          "value": "{core.color.neutrals.0}",
+          "type": "color"
+        },
+        "xs": {
+          "value": "{core.color.neutrals.0}",
+          "type": "color"
+        },
+        "sm": {
+          "value": "{core.color.neutrals.0}",
+          "type": "color"
+        },
+        "md": {
+          "value": "{core.color.neutrals.0}",
+          "type": "color"
+        },
+        "lg": {
+          "value": "{core.color.neutrals.0}",
+          "type": "color"
+        },
+        "xl": {
+          "value": "{core.color.neutrals.0}",
+          "type": "color"
+        }
+      }
+    },
+    "mixer": {
+      "subtle": {
+        "value": "{core.color.neutrals.0}",
+        "type": "color"
+      },
+      "muted": {
+        "value": "{core.color.neutrals.1500}",
+        "type": "color"
+      }
+    }
+  }
+}

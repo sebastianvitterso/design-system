@@ -1,0 +1,289 @@
+{
+  "presentation": {
+    "presentation": {
+      "small": {
+        "value": {
+          "fontFamily": "{core.fontFamily.default}",
+          "fontWeight": "{core.fontWeight.regular}",
+          "fontSize": "{presentation.const.roundingInterval} * roundTo( {presentation.typeScale.base} * {presentation.typeScale.ratio} ^ (-2/{presentation.typeScale.steps}) / {presentation.const.roundingInterval}, 1)",
+          "lineHeight": "{presentation.const.gridInterval} * ceil({presentation.presentation.small.fontSize} * {core.lineHeightMultiplier.md} / {presentation.const.gridInterval})"
+        },
+        "type": "typography"
+      },
+      "caption": {
+        "value": {
+          "fontFamily": "{core.fontFamily.default}",
+          "fontWeight": "{core.fontWeight.regular}",
+          "fontSize": "{presentation.const.roundingInterval} * roundTo( {presentation.typeScale.base} * {presentation.typeScale.ratio} ^ (-1/{presentation.typeScale.steps}) / {presentation.const.roundingInterval}, 1)",
+          "lineHeight": "{presentation.const.gridInterval} * ceil({presentation.presentation.caption.fontSize} * {core.lineHeightMultiplier.lg} / {presentation.const.gridInterval})",
+          "paragraphSpacing": "{presentation.const.gridInterval} * 3"
+        },
+        "type": "typography"
+      },
+      "captionBold": {
+        "value": {
+          "fontFamily": "{presentation.presentation.caption.fontFamily}",
+          "fontWeight": "{core.fontWeight.bold}",
+          "fontSize": "{presentation.presentation.caption.fontSize}",
+          "lineHeight": "{presentation.presentation.caption.lineHeight}",
+          "paragraphSpacing": "{presentation.const.gridInterval} * 3"
+        },
+        "type": "typography"
+      },
+      "bullets": {
+        "value": {
+          "fontFamily": "{core.fontFamily.default}",
+          "fontWeight": "{core.fontWeight.regular}",
+          "fontSize": "{presentation.const.roundingInterval} * roundTo( {presentation.typeScale.base} * {presentation.typeScale.ratio} ^ (0/{presentation.typeScale.steps}) / {presentation.const.roundingInterval}, 1)",
+          "lineHeight": "{presentation.const.gridInterval} * ceil({presentation.presentation.bullets.fontSize} * {core.lineHeightMultiplier.lg} / {presentation.const.gridInterval})",
+          "paragraphSpacing": "{presentation.const.gridInterval} * 4"
+        },
+        "type": "typography"
+      },
+      "ingress": {
+        "value": {
+          "fontFamily": "{core.fontFamily.default}",
+          "fontWeight": "{core.fontWeight.regular}",
+          "fontSize": "{presentation.const.roundingInterval} * roundTo( {presentation.typeScale.base} * {presentation.typeScale.ratio} ^ (1/{presentation.typeScale.steps}) / {presentation.const.roundingInterval}, 1)",
+          "lineHeight": "{presentation.const.gridInterval} * ceil({presentation.presentation.ingress.fontSize} * {core.lineHeightMultiplier.md} / {presentation.const.gridInterval})",
+          "paragraphSpacing": "{presentation.const.gridInterval} * 5"
+        },
+        "type": "typography"
+      },
+      "titleSm": {
+        "value": {
+          "fontFamily": "{core.fontFamily.default}",
+          "fontWeight": "{core.fontWeight.regular}",
+          "fontSize": "{presentation.const.roundingInterval} * roundTo( {presentation.typeScale.base} * {presentation.typeScale.ratio} ^ (2/{presentation.typeScale.steps}) / {presentation.const.roundingInterval}, 1)",
+          "lineHeight": "{presentation.const.gridInterval} * ceil({presentation.presentation.titleSm.fontSize} * {core.lineHeightMultiplier.md} / {presentation.const.gridInterval})"
+        },
+        "type": "typography"
+      },
+      "titleMd": {
+        "value": {
+          "fontFamily": "{core.fontFamily.default}",
+          "fontWeight": "{core.fontWeight.regular}",
+          "fontSize": "{presentation.const.roundingInterval} * roundTo( {presentation.typeScale.base} * {presentation.typeScale.ratio} ^ (3/{presentation.typeScale.steps}) / {presentation.const.roundingInterval}, 1)",
+          "lineHeight": "{presentation.const.gridInterval} * ceil({presentation.presentation.titleMd.fontSize} * {core.lineHeightMultiplier.sm} / {presentation.const.gridInterval})"
+        },
+        "type": "typography"
+      },
+      "titleLg": {
+        "value": {
+          "fontFamily": "{core.fontFamily.default}",
+          "fontWeight": "{core.fontWeight.regular}",
+          "fontSize": "{presentation.const.roundingInterval} * roundTo( {presentation.typeScale.base} * {presentation.typeScale.ratio} ^ (4/{presentation.typeScale.steps}) / {presentation.const.roundingInterval}, 1)",
+          "lineHeight": "{presentation.const.gridInterval} * ceil({presentation.presentation.titleLg.fontSize} * {core.lineHeightMultiplier.sm} / {presentation.const.gridInterval})"
+        },
+        "type": "typography"
+      },
+      "displaySm": {
+        "value": {
+          "fontFamily": "{core.fontFamily.default}",
+          "fontWeight": "{core.fontWeight.regular}",
+          "fontSize": "{presentation.const.roundingInterval} * roundTo( {presentation.typeScale.base} * {presentation.typeScale.ratio} ^ (5/{presentation.typeScale.steps}) / {presentation.const.roundingInterval}, 1)",
+          "lineHeight": "{presentation.const.gridInterval} * ceil({presentation.presentation.displaySm.fontSize} * {core.lineHeightMultiplier.sm} / {presentation.const.gridInterval})"
+        },
+        "type": "typography"
+      },
+      "displayMd": {
+        "value": {
+          "fontFamily": "{core.fontFamily.default}",
+          "fontWeight": "{core.fontWeight.regular}",
+          "fontSize": "{presentation.const.roundingInterval} * roundTo( {presentation.typeScale.base} * {presentation.typeScale.ratio} ^ (6/{presentation.typeScale.steps}) / {presentation.const.roundingInterval}, 1)",
+          "lineHeight": "{presentation.const.gridInterval} * ceil({presentation.presentation.displayMd.fontSize} * {core.lineHeightMultiplier.xs} / {presentation.const.gridInterval})"
+        },
+        "type": "typography"
+      },
+      "on-content": {
+        "value": "{core.color.neutrals.1300}",
+        "type": "color"
+      },
+      "bg-content": {
+        "value": "{core.color.neutrals.0}",
+        "type": "color"
+      },
+      "bg-sidebar-default": {
+        "value": "{core.color.blueSky.1200}",
+        "type": "color"
+      },
+      "on-default-sidebar": {
+        "value": "{core.color.neutrals.0}",
+        "type": "color"
+      },
+      "bg-sidebar-playground": {
+        "value": "{core.color.mistBlueEds.300}",
+        "type": "color"
+      },
+      "on-playground-sidebar": {
+        "value": "{core.color.slateBlueEds.1350}",
+        "type": "color"
+      },
+      "symbol": {
+        "value": "{core.color.spruceWood.200}",
+        "type": "color"
+      },
+      "focus": {
+        "value": "{core.color.mossGreen1.1100}",
+        "type": "color"
+      },
+      "arrow": {
+        "value": "#7D0023",
+        "type": "color"
+      },
+      "logo": {
+        "value": "{core.color.neutrals.0}",
+        "type": "color"
+      }
+    },
+    "typeScale": {
+      "base": {
+        "value": "20",
+        "type": "other"
+      },
+      "ratio": {
+        "value": "2",
+        "type": "other"
+      },
+      "steps": {
+        "value": "3.5",
+        "type": "other",
+        "description": "The number of steps in the scale\n"
+      }
+    },
+    "const": {
+      "gridInterval": {
+        "value": "4",
+        "type": "other"
+      },
+      "roundingInterval": {
+        "value": "5",
+        "type": "other"
+      },
+      "wordSpacing": {
+        "value": "0.25",
+        "type": "other"
+      }
+    },
+    "documentation": {
+      "fontSizes": {
+        "type": "fontSizes",
+        "small": {
+          "value": "{presentation.presentation.small.fontSize}",
+          "description": "Extract the fontSize for documentation purposes"
+        },
+        "caption": {
+          "value": "{presentation.presentation.caption.fontSize}",
+          "description": "Extract the fontSize for documentation purposes"
+        },
+        "bullets": {
+          "value": "{presentation.presentation.bullets.fontSize}",
+          "description": "Extract the fontSize for documentation purposes"
+        },
+        "ingress": {
+          "value": "{presentation.presentation.ingress.fontSize}",
+          "description": "Extract the fontSize for documentation purposes"
+        },
+        "titleSm": {
+          "value": "{presentation.presentation.titleSm.fontSize}",
+          "description": "Extract the fontSize for documentation purposes"
+        },
+        "titleMd": {
+          "value": "{presentation.presentation.titleMd.fontSize}",
+          "description": "Extract the fontSize for documentation purposes"
+        },
+        "titleLg": {
+          "value": "{presentation.presentation.titleLg.fontSize}",
+          "description": "Extract the fontSize for documentation purposes"
+        },
+        "displaySm": {
+          "value": "{presentation.presentation.displaySm.fontSize}",
+          "description": "Extract the fontSize for documentation purposes"
+        },
+        "displayMd": {
+          "value": "{presentation.presentation.displayMd.fontSize}",
+          "description": "Extract the fontSize for documentation purposes"
+        }
+      },
+      "lineHeights": {
+        "type": "lineHeights",
+        "small": {
+          "value": "{presentation.presentation.small.lineHeight}",
+          "description": "Extract the fontSize for documentation purposes"
+        },
+        "caption": {
+          "value": "{presentation.presentation.caption.lineHeight}",
+          "description": "Extract the fontSize for documentation purposes"
+        },
+        "bullets": {
+          "value": "{presentation.presentation.bullets.lineHeight}",
+          "description": "Extract the fontSize for documentation purposes"
+        },
+        "ingress": {
+          "value": "{presentation.presentation.ingress.lineHeight}",
+          "description": "Extract the fontSize for documentation purposes"
+        },
+        "titleSm": {
+          "value": "{presentation.presentation.titleSm.lineHeight}",
+          "description": "Extract the fontSize for documentation purposes"
+        },
+        "titleMd": {
+          "value": "{presentation.presentation.titleMd.lineHeight}",
+          "description": "Extract the fontSize for documentation purposes"
+        },
+        "titleLg": {
+          "value": "{presentation.presentation.titleLg.lineHeight}",
+          "description": "Extract the fontSize for documentation purposes"
+        },
+        "displaySm": {
+          "value": "{presentation.presentation.displaySm.lineHeight}",
+          "description": "Extract the fontSize for documentation purposes"
+        },
+        "displayMd": {
+          "value": "{presentation.presentation.displayMd.lineHeight}",
+          "description": "Extract the fontSize for documentation purposes"
+        }
+      }
+    },
+    "spacing": {
+      "word": {
+        "small": {
+          "value": "{presentation.presentation.small.fontSize} * {presentation.const.wordSpacing}",
+          "type": "spacing"
+        },
+        "caption": {
+          "value": "{presentation.presentation.caption.fontSize} * {presentation.const.wordSpacing}",
+          "type": "spacing"
+        },
+        "bullets": {
+          "value": "{presentation.presentation.bullets.fontSize} * {presentation.const.wordSpacing}",
+          "type": "spacing"
+        },
+        "ingress": {
+          "value": "{presentation.presentation.ingress.fontSize} * {presentation.const.wordSpacing}",
+          "type": "spacing"
+        },
+        "titleSm": {
+          "value": "{presentation.presentation.titleSm.fontSize} * {presentation.const.wordSpacing}",
+          "type": "spacing"
+        },
+        "titleMd": {
+          "value": "{presentation.presentation.titleMd.fontSize} * {presentation.const.wordSpacing}",
+          "type": "spacing"
+        },
+        "titleLg": {
+          "value": "{presentation.presentation.titleLg.fontSize} * {presentation.const.wordSpacing}",
+          "type": "spacing"
+        },
+        "displaySm": {
+          "value": "{presentation.presentation.displaySm.fontSize} * {presentation.const.wordSpacing}",
+          "type": "spacing"
+        },
+        "displayMd": {
+          "value": "{presentation.presentation.displayMd.fontSize} * {presentation.const.wordSpacing}",
+          "type": "spacing"
+        }
+      }
+    }
+  }
+}

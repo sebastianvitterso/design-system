@@ -1,0 +1,22 @@
+{
+  "component": {
+    "actionButton": {
+      "elements": {
+        "container": {
+          "value": {
+            "width": "{semantic.shape.actionButton.width}",
+            "height": "{semantic.shape.actionButton.height}",
+            "borderRadius": "{semantic.shape.actionButton.borderRadius}"
+          },
+          "type": "composition"
+        },
+        "icon": {
+          "value": {
+            "sizing": "{semantic.shape.icon.sizing}"
+          },
+          "type": "composition"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,922 @@
+{
+  "core": {
+    "fontFamily": {
+      "default": {
+        "value": "Equinor",
+        "type": "fontFamilies"
+      },
+      "mono": {
+        "value": "Equinor Mono",
+        "type": "fontFamilies"
+      }
+    },
+    "fontSize": {
+      "0": {
+        "value": "5*roundTo(({density.typeScale.base}*{core.typeScale.ratio}^(-3/{core.typeScale.steps})/5),1)",
+        "type": "fontSizes"
+      },
+      "1": {
+        "value": "5*roundTo(({density.typeScale.base}*{core.typeScale.ratio}^(-2/{core.typeScale.steps})/5),1)",
+        "type": "fontSizes"
+      },
+      "2": {
+        "value": "5*roundTo(({density.typeScale.base}*{core.typeScale.ratio}^(-1/{core.typeScale.steps})/5),1)",
+        "type": "fontSizes"
+      },
+      "3": {
+        "value": "5*roundTo(({density.typeScale.base}*{core.typeScale.ratio}^(0/{core.typeScale.steps})/5),1)",
+        "type": "fontSizes"
+      },
+      "4": {
+        "value": "5*roundTo(({density.typeScale.base}*{core.typeScale.ratio}^(1/{core.typeScale.steps})/5),1)",
+        "type": "fontSizes"
+      },
+      "5": {
+        "value": "5*roundTo(({density.typeScale.base}*{core.typeScale.ratio}^(2/{core.typeScale.steps})/5),1)",
+        "type": "fontSizes"
+      },
+      "6": {
+        "value": "5*roundTo(({density.typeScale.base}*{core.typeScale.ratio}^(3/{core.typeScale.steps})/5),1)",
+        "type": "fontSizes"
+      },
+      "7": {
+        "value": "5*roundTo(({density.typeScale.base}*{core.typeScale.ratio}^(4/{core.typeScale.steps})/5),1)",
+        "type": "fontSizes"
+      },
+      "8": {
+        "value": "5*roundTo(({density.typeScale.base}*{core.typeScale.ratio}^(5/{core.typeScale.steps})/5),1)",
+        "type": "fontSizes"
+      },
+      "9": {
+        "value": "5*roundTo(({density.typeScale.base}*{core.typeScale.ratio}^(6/{core.typeScale.steps})/5),1)",
+        "type": "fontSizes"
+      }
+    },
+    "fontWeight": {
+      "light": {
+        "value": "Light",
+        "type": "fontWeights"
+      },
+      "regular": {
+        "value": "Regular",
+        "type": "fontWeights"
+      },
+      "medium": {
+        "value": "Medium",
+        "type": "fontWeights"
+      },
+      "bold": {
+        "value": "Bold",
+        "type": "fontWeights"
+      }
+    },
+    "typography": {
+      "trimmed": {
+        "0": {
+          "value": {
+            "fontFamily": "{core.fontFamily.default}",
+            "fontWeight": "{core.fontWeight.regular}",
+            "lineHeight": "{core.lineHeight.trimmed.0}",
+            "fontSize": "{core.fontSize.0}",
+            "paragraphSpacing": "0"
+          },
+          "type": "typography"
+        },
+        "1": {
+          "value": {
+            "fontFamily": "{core.fontFamily.default}",
+            "fontWeight": "{core.fontWeight.regular}",
+            "lineHeight": "{core.lineHeight.trimmed.1}",
+            "fontSize": "{core.fontSize.1}",
+            "paragraphSpacing": "0",
+            "letterSpacing": ""
+          },
+          "type": "typography"
+        },
+        "2": {
+          "value": {
+            "fontFamily": "{core.fontFamily.default}",
+            "fontWeight": "{core.fontWeight.regular}",
+            "lineHeight": "{core.lineHeight.trimmed.2}",
+            "fontSize": "{core.fontSize.2}",
+            "paragraphSpacing": "0"
+          },
+          "type": "typography"
+        },
+        "3": {
+          "value": {
+            "fontFamily": "{core.fontFamily.default}",
+            "fontWeight": "{core.fontWeight.regular}",
+            "lineHeight": "{core.lineHeight.trimmed.3}",
+            "fontSize": "{core.fontSize.3}",
+            "paragraphSpacing": "{core.paragraphSpacing.2}"
+          },
+          "type": "typography"
+        },
+        "4": {
+          "value": {
+            "fontFamily": "{core.fontFamily.default}",
+            "fontWeight": "{core.fontWeight.regular}",
+            "lineHeight": "{core.lineHeight.trimmed.4}",
+            "fontSize": "{core.fontSize.4}"
+          },
+          "type": "typography"
+        },
+        "5": {
+          "value": {
+            "fontFamily": "{core.fontFamily.default}",
+            "fontWeight": "{core.fontWeight.regular}",
+            "fontSize": "{core.fontSize.5}",
+            "lineHeight": "{core.lineHeight.trimmed.5}"
+          },
+          "type": "typography"
+        },
+        "6": {
+          "value": {
+            "fontSize": "{core.fontSize.6}",
+            "lineHeight": "{core.lineHeight.trimmed.6}",
+            "fontWeight": "{core.fontWeight.regular}",
+            "fontFamily": "{core.fontFamily.default}"
+          },
+          "type": "typography"
+        },
+        "7": {
+          "value": {
+            "fontSize": "{core.fontSize.7}",
+            "lineHeight": "{core.lineHeight.trimmed.7}",
+            "fontWeight": "{core.fontWeight.regular}",
+            "fontFamily": "{core.fontFamily.default}"
+          },
+          "type": "typography"
+        },
+        "8": {
+          "value": {
+            "fontSize": "{core.fontSize.8}",
+            "lineHeight": "{core.lineHeight.trimmed.8}",
+            "fontWeight": "{core.fontWeight.regular}",
+            "fontFamily": "{core.fontFamily.default}"
+          },
+          "type": "typography"
+        },
+        "9": {
+          "value": {
+            "fontSize": "{core.fontSize.9}",
+            "lineHeight": "{core.lineHeight.trimmed.9}",
+            "fontWeight": "{core.fontWeight.regular}",
+            "fontFamily": "{core.fontFamily.default}"
+          },
+          "type": "typography"
+        }
+      },
+      "tight": {
+        "0": {
+          "value": {
+            "fontFamily": "{core.fontFamily.default}",
+            "fontWeight": "{core.fontWeight.regular}",
+            "lineHeight": "{core.lineHeight.tight.0}",
+            "fontSize": "{core.fontSize.0}",
+            "paragraphSpacing": "{core.paragraphSpacing.2}"
+          },
+          "type": "typography"
+        },
+        "1": {
+          "value": {
+            "fontFamily": "{core.fontFamily.default}",
+            "fontWeight": "{core.fontWeight.regular}",
+            "lineHeight": "{core.lineHeight.tight.1}",
+            "fontSize": "{core.fontSize.1}",
+            "paragraphSpacing": "{core.paragraphSpacing.2}"
+          },
+          "type": "typography"
+        },
+        "2": {
+          "value": {
+            "fontFamily": "{core.fontFamily.default}",
+            "fontWeight": "{core.fontWeight.regular}",
+            "lineHeight": "{core.lineHeight.tight.2}",
+            "fontSize": "{core.fontSize.2}",
+            "paragraphSpacing": "{core.paragraphSpacing.2}"
+          },
+          "type": "typography"
+        },
+        "3": {
+          "value": {
+            "fontFamily": "{core.fontFamily.default}",
+            "fontWeight": "{core.fontWeight.regular}",
+            "lineHeight": "{core.lineHeight.tight.3}",
+            "fontSize": "{core.fontSize.3}",
+            "paragraphSpacing": "{core.paragraphSpacing.2}"
+          },
+          "type": "typography"
+        },
+        "4": {
+          "value": {
+            "fontFamily": "{core.fontFamily.default}",
+            "fontWeight": "{core.fontWeight.regular}",
+            "lineHeight": "{core.lineHeight.tight.4}",
+            "fontSize": "{core.fontSize.4}"
+          },
+          "type": "typography"
+        },
+        "5": {
+          "value": {
+            "fontFamily": "{core.fontFamily.default}",
+            "fontWeight": "{core.fontWeight.regular}",
+            "fontSize": "{core.fontSize.5}",
+            "lineHeight": "{core.lineHeight.tight.5}"
+          },
+          "type": "typography"
+        },
+        "6": {
+          "value": {
+            "fontSize": "{core.fontSize.6}",
+            "lineHeight": "{core.lineHeight.tight.6}",
+            "fontWeight": "{core.fontWeight.regular}",
+            "fontFamily": "{core.fontFamily.default}"
+          },
+          "type": "typography"
+        },
+        "7": {
+          "value": {
+            "fontSize": "{core.fontSize.7}",
+            "lineHeight": "{core.lineHeight.tight.7}",
+            "fontWeight": "{core.fontWeight.regular}",
+            "fontFamily": "{core.fontFamily.default}"
+          },
+          "type": "typography"
+        },
+        "8": {
+          "value": {
+            "fontSize": "{core.fontSize.8}",
+            "lineHeight": "{core.lineHeight.tight.8}",
+            "fontWeight": "{core.fontWeight.regular}",
+            "fontFamily": "{core.fontFamily.default}"
+          },
+          "type": "typography"
+        },
+        "9": {
+          "value": {
+            "fontSize": "{core.fontSize.9}",
+            "lineHeight": "{core.lineHeight.tight.9}",
+            "fontWeight": "{core.fontWeight.regular}",
+            "fontFamily": "{core.fontFamily.default}"
+          },
+          "type": "typography"
+        }
+      },
+      "compressed": {
+        "0": {
+          "value": {
+            "fontFamily": "{core.fontFamily.default}",
+            "fontWeight": "{core.fontWeight.regular}",
+            "lineHeight": "{core.lineHeight.compressed.0}",
+            "fontSize": "{core.fontSize.0}",
+            "paragraphSpacing": "{core.paragraphSpacing.2}"
+          },
+          "type": "typography"
+        },
+        "1": {
+          "value": {
+            "fontFamily": "{core.fontFamily.default}",
+            "fontWeight": "{core.fontWeight.regular}",
+            "lineHeight": "{core.lineHeight.compressed.1}",
+            "fontSize": "{core.fontSize.1}",
+            "paragraphSpacing": "{core.paragraphSpacing.2}"
+          },
+          "type": "typography"
+        },
+        "2": {
+          "value": {
+            "fontFamily": "{core.fontFamily.default}",
+            "fontWeight": "{core.fontWeight.regular}",
+            "lineHeight": "{core.lineHeight.compressed.2}",
+            "fontSize": "{core.fontSize.2}",
+            "paragraphSpacing": "{core.paragraphSpacing.2}"
+          },
+          "type": "typography"
+        },
+        "3": {
+          "value": {
+            "fontFamily": "{core.fontFamily.default}",
+            "fontWeight": "{core.fontWeight.regular}",
+            "lineHeight": "{core.lineHeight.compressed.3}",
+            "fontSize": "{core.fontSize.3}",
+            "paragraphSpacing": "{core.paragraphSpacing.2}"
+          },
+          "type": "typography"
+        },
+        "4": {
+          "value": {
+            "fontFamily": "{core.fontFamily.default}",
+            "fontWeight": "{core.fontWeight.regular}",
+            "lineHeight": "{core.lineHeight.compressed.4}",
+            "fontSize": "{core.fontSize.4}"
+          },
+          "type": "typography"
+        },
+        "5": {
+          "value": {
+            "fontFamily": "{core.fontFamily.default}",
+            "fontWeight": "{core.fontWeight.regular}",
+            "fontSize": "{core.fontSize.5}",
+            "lineHeight": "{core.lineHeight.compressed.5}"
+          },
+          "type": "typography"
+        },
+        "6": {
+          "value": {
+            "fontSize": "{core.fontSize.6}",
+            "lineHeight": "{core.lineHeight.compressed.6}",
+            "fontWeight": "{core.fontWeight.regular}",
+            "fontFamily": "{core.fontFamily.default}"
+          },
+          "type": "typography"
+        },
+        "7": {
+          "value": {
+            "fontSize": "{core.fontSize.7}",
+            "lineHeight": "{core.lineHeight.compressed.7}",
+            "fontWeight": "{core.fontWeight.regular}",
+            "fontFamily": "{core.fontFamily.default}"
+          },
+          "type": "typography"
+        },
+        "8": {
+          "value": {
+            "fontSize": "{core.fontSize.8}",
+            "lineHeight": "{core.lineHeight.compressed.8}",
+            "fontWeight": "{core.fontWeight.regular}",
+            "fontFamily": "{core.fontFamily.default}"
+          },
+          "type": "typography"
+        },
+        "9": {
+          "value": {
+            "fontSize": "{core.fontSize.9}",
+            "lineHeight": "{core.lineHeight.compressed.9}",
+            "fontWeight": "{core.fontWeight.regular}",
+            "fontFamily": "{core.fontFamily.default}"
+          },
+          "type": "typography"
+        }
+      },
+      "comfortable": {
+        "0": {
+          "value": {
+            "fontFamily": "{core.fontFamily.default}",
+            "fontWeight": "{core.fontWeight.regular}",
+            "lineHeight": "{core.lineHeight.comfortable.0}",
+            "fontSize": "{core.fontSize.0}",
+            "paragraphSpacing": "{core.paragraphSpacing.2}"
+          },
+          "type": "typography"
+        },
+        "1": {
+          "value": {
+            "fontFamily": "{core.fontFamily.default}",
+            "fontWeight": "{core.fontWeight.regular}",
+            "lineHeight": "{core.lineHeight.comfortable.1}",
+            "fontSize": "{core.fontSize.1}",
+            "paragraphSpacing": "{core.paragraphSpacing.2}"
+          },
+          "type": "typography"
+        },
+        "2": {
+          "value": {
+            "fontFamily": "{core.fontFamily.default}",
+            "fontWeight": "{core.fontWeight.regular}",
+            "lineHeight": "{core.lineHeight.comfortable.2}",
+            "fontSize": "{core.fontSize.2}",
+            "paragraphSpacing": "{core.paragraphSpacing.2}"
+          },
+          "type": "typography"
+        },
+        "3": {
+          "value": {
+            "fontFamily": "{core.fontFamily.default}",
+            "fontWeight": "{core.fontWeight.regular}",
+            "lineHeight": "{core.lineHeight.comfortable.3}",
+            "fontSize": "{core.fontSize.3}",
+            "paragraphSpacing": "{core.paragraphSpacing.2}"
+          },
+          "type": "typography"
+        },
+        "4": {
+          "value": {
+            "fontFamily": "{core.fontFamily.default}",
+            "fontWeight": "{core.fontWeight.regular}",
+            "lineHeight": "{core.lineHeight.comfortable.4}",
+            "fontSize": "{core.fontSize.4}"
+          },
+          "type": "typography"
+        },
+        "5": {
+          "value": {
+            "fontFamily": "{core.fontFamily.default}",
+            "fontWeight": "{core.fontWeight.regular}",
+            "fontSize": "{core.fontSize.5}",
+            "lineHeight": "{core.lineHeight.comfortable.5}"
+          },
+          "type": "typography"
+        },
+        "6": {
+          "value": {
+            "fontSize": "{core.fontSize.6}",
+            "lineHeight": "{core.lineHeight.comfortable.6}",
+            "fontWeight": "{core.fontWeight.regular}",
+            "fontFamily": "{core.fontFamily.default}"
+          },
+          "type": "typography"
+        },
+        "7": {
+          "value": {
+            "fontSize": "{core.fontSize.7}",
+            "lineHeight": "{core.lineHeight.comfortable.7}",
+            "fontWeight": "{core.fontWeight.regular}",
+            "fontFamily": "{core.fontFamily.default}"
+          },
+          "type": "typography"
+        },
+        "8": {
+          "value": {
+            "fontSize": "{core.fontSize.8}",
+            "lineHeight": "{core.lineHeight.comfortable.8}",
+            "fontWeight": "{core.fontWeight.regular}",
+            "fontFamily": "{core.fontFamily.default}"
+          },
+          "type": "typography"
+        },
+        "9": {
+          "value": {
+            "fontSize": "{core.fontSize.9}",
+            "lineHeight": "{core.lineHeight.comfortable.9}",
+            "fontWeight": "{core.fontWeight.regular}",
+            "fontFamily": "{core.fontFamily.default}"
+          },
+          "type": "typography"
+        }
+      },
+      "relaxed": {
+        "0": {
+          "value": {
+            "fontFamily": "{core.fontFamily.default}",
+            "fontWeight": "{core.fontWeight.regular}",
+            "lineHeight": "{core.lineHeight.relaxed.0}",
+            "fontSize": "{core.fontSize.0}",
+            "paragraphSpacing": "{core.paragraphSpacing.2}"
+          },
+          "type": "typography"
+        },
+        "1": {
+          "value": {
+            "fontFamily": "{core.fontFamily.default}",
+            "fontWeight": "{core.fontWeight.regular}",
+            "lineHeight": "{core.lineHeight.relaxed.1}",
+            "fontSize": "{core.fontSize.1}",
+            "paragraphSpacing": "{core.paragraphSpacing.2}"
+          },
+          "type": "typography"
+        },
+        "2": {
+          "value": {
+            "fontFamily": "{core.fontFamily.default}",
+            "fontWeight": "{core.fontWeight.regular}",
+            "lineHeight": "{core.lineHeight.relaxed.2}",
+            "fontSize": "{core.fontSize.2}",
+            "paragraphSpacing": "{core.paragraphSpacing.2}"
+          },
+          "type": "typography"
+        },
+        "3": {
+          "value": {
+            "fontFamily": "{core.fontFamily.default}",
+            "fontWeight": "{core.fontWeight.regular}",
+            "lineHeight": "{core.lineHeight.relaxed.3}",
+            "fontSize": "{core.fontSize.3}",
+            "paragraphSpacing": "{core.paragraphSpacing.2}",
+            "letterSpacing": "0"
+          },
+          "type": "typography"
+        },
+        "4": {
+          "value": {
+            "fontFamily": "{core.fontFamily.default}",
+            "fontWeight": "{core.fontWeight.regular}",
+            "lineHeight": "{core.lineHeight.relaxed.4}",
+            "fontSize": "{core.fontSize.4}"
+          },
+          "type": "typography"
+        },
+        "5": {
+          "value": {
+            "fontFamily": "{core.fontFamily.default}",
+            "fontWeight": "{core.fontWeight.regular}",
+            "fontSize": "{core.fontSize.5}",
+            "lineHeight": "{core.lineHeight.relaxed.5}"
+          },
+          "type": "typography"
+        },
+        "6": {
+          "value": {
+            "fontSize": "{core.fontSize.6}",
+            "lineHeight": "{core.lineHeight.relaxed.6}",
+            "fontWeight": "{core.fontWeight.regular}",
+            "fontFamily": "{core.fontFamily.default}"
+          },
+          "type": "typography"
+        },
+        "7": {
+          "value": {
+            "fontSize": "{core.fontSize.7}",
+            "lineHeight": "{core.lineHeight.relaxed.7}",
+            "fontWeight": "{core.fontWeight.regular}",
+            "fontFamily": "{core.fontFamily.default}"
+          },
+          "type": "typography"
+        },
+        "8": {
+          "value": {
+            "fontSize": "{core.fontSize.8}",
+            "lineHeight": "{core.lineHeight.relaxed.8}",
+            "fontWeight": "{core.fontWeight.regular}",
+            "fontFamily": "{core.fontFamily.default}"
+          },
+          "type": "typography"
+        },
+        "9": {
+          "value": {
+            "fontSize": "{core.fontSize.9}",
+            "lineHeight": "{core.lineHeight.relaxed.9}",
+            "fontWeight": "{core.fontWeight.regular}",
+            "fontFamily": "{core.fontFamily.default}"
+          },
+          "type": "typography"
+        }
+      }
+    },
+    "paragraphSpacing": {
+      "0": {
+        "value": "{core.grid.0}",
+        "type": "paragraphSpacing"
+      },
+      "1": {
+        "value": "{core.grid.1}",
+        "type": "paragraphSpacing"
+      },
+      "2": {
+        "value": "{core.grid.2}",
+        "type": "paragraphSpacing"
+      }
+    },
+    "lineHeight": {
+      "trimmed": {
+        "0": {
+          "value": "{core.const.gridInterval} * ceil({core.fontSize.0} * {core.lineHeightMultiplier.xxs} / {core.const.gridInterval})",
+          "type": "lineHeights",
+          "description": "10.5/12"
+        },
+        "1": {
+          "value": "{core.const.gridInterval} * ceil({core.fontSize.1} * {core.lineHeightMultiplier.xxs} / {core.const.gridInterval})",
+          "type": "lineHeights",
+          "description": "12/12"
+        },
+        "2": {
+          "value": "{core.const.gridInterval} * ceil({core.fontSize.2} * {core.lineHeightMultiplier.xxs} / {core.const.gridInterval})",
+          "type": "lineHeights",
+          "description": "14/16"
+        },
+        "3": {
+          "value": "{core.const.gridInterval} * ceil({core.fontSize.3} * {core.lineHeightMultiplier.xxs} / {core.const.gridInterval})",
+          "type": "lineHeights",
+          "description": "16/16"
+        },
+        "4": {
+          "value": "{core.const.gridInterval} * ceil({core.fontSize.4} * {core.lineHeightMultiplier.xxs} / {core.const.gridInterval})",
+          "type": "lineHeights",
+          "description": "18.5/20"
+        },
+        "5": {
+          "value": "{core.const.gridInterval} * ceil({core.fontSize.5} * {core.lineHeightMultiplier.xxs} / {core.const.gridInterval})",
+          "type": "lineHeights",
+          "description": "21/24"
+        },
+        "6": {
+          "value": "{core.const.gridInterval} * ceil({core.fontSize.6} * {core.lineHeightMultiplier.xxs} / {core.const.gridInterval})",
+          "type": "lineHeights",
+          "description": "24.5/28"
+        },
+        "7": {
+          "value": "{core.const.gridInterval} * ceil({core.fontSize.7} * {core.lineHeightMultiplier.xxs} / {core.const.gridInterval})",
+          "type": "lineHeights",
+          "description": "28/28"
+        },
+        "8": {
+          "value": "{core.const.gridInterval} * ceil({core.fontSize.8} * {core.lineHeightMultiplier.xxs} / {core.const.gridInterval})",
+          "type": "lineHeights",
+          "description": "32/32"
+        },
+        "9": {
+          "value": "{core.const.gridInterval} * ceil({core.fontSize.9} * {core.lineHeightMultiplier.xxs} / {core.const.gridInterval})",
+          "type": "lineHeights",
+          "description": "37/40"
+        }
+      },
+      "tight": {
+        "0": {
+          "value": "{core.const.gridInterval} * ceil({core.fontSize.0} * {core.lineHeightMultiplier.xs} / {core.const.gridInterval})",
+          "type": "lineHeights",
+          "description": "10.5/12"
+        },
+        "1": {
+          "value": "{core.const.gridInterval} * ceil({core.fontSize.1} * {core.lineHeightMultiplier.xs} / {core.const.gridInterval})",
+          "type": "lineHeights",
+          "description": "12/12"
+        },
+        "2": {
+          "value": "{core.const.gridInterval} * ceil({core.fontSize.2} * {core.lineHeightMultiplier.xs} / {core.const.gridInterval})",
+          "type": "lineHeights",
+          "description": "14/16"
+        },
+        "3": {
+          "value": "{core.const.gridInterval} * ceil({core.fontSize.3} * {core.lineHeightMultiplier.xs} / {core.const.gridInterval})",
+          "type": "lineHeights",
+          "description": "16/16"
+        },
+        "4": {
+          "value": "{core.const.gridInterval} * ceil({core.fontSize.4} * {core.lineHeightMultiplier.xs} / {core.const.gridInterval})",
+          "type": "lineHeights",
+          "description": "18.5/20"
+        },
+        "5": {
+          "value": "{core.const.gridInterval} * ceil({core.fontSize.5} * {core.lineHeightMultiplier.xs} / {core.const.gridInterval})",
+          "type": "lineHeights",
+          "description": "21/24"
+        },
+        "6": {
+          "value": "{core.const.gridInterval} * ceil({core.fontSize.6} * {core.lineHeightMultiplier.xs} / {core.const.gridInterval})",
+          "type": "lineHeights",
+          "description": "24.5/28"
+        },
+        "7": {
+          "value": "{core.const.gridInterval} * ceil({core.fontSize.7} * {core.lineHeightMultiplier.xs} / {core.const.gridInterval})",
+          "type": "lineHeights",
+          "description": "28/28"
+        },
+        "8": {
+          "value": "{core.const.gridInterval} * ceil({core.fontSize.8} * {core.lineHeightMultiplier.xs} / {core.const.gridInterval})",
+          "type": "lineHeights",
+          "description": "32/32"
+        },
+        "9": {
+          "value": "{core.const.gridInterval} * ceil({core.fontSize.9} * {core.lineHeightMultiplier.xs} / {core.const.gridInterval})",
+          "type": "lineHeights",
+          "description": "37/40"
+        }
+      },
+      "compressed": {
+        "0": {
+          "value": "{core.const.gridInterval} * ceil({core.fontSize.0} * {core.lineHeightMultiplier.sm} / {core.const.gridInterval})",
+          "type": "lineHeights",
+          "description": "10.5/12"
+        },
+        "1": {
+          "value": "{core.const.gridInterval} * ceil({core.fontSize.1} * {core.lineHeightMultiplier.sm} / {core.const.gridInterval})",
+          "type": "lineHeights",
+          "description": "12/16"
+        },
+        "2": {
+          "value": "{core.const.gridInterval} * ceil({core.fontSize.2} * {core.lineHeightMultiplier.sm} / {core.const.gridInterval})",
+          "type": "lineHeights",
+          "description": "14/16"
+        },
+        "3": {
+          "value": "{core.const.gridInterval} * ceil({core.fontSize.3} * {core.lineHeightMultiplier.sm} / {core.const.gridInterval})",
+          "type": "lineHeights",
+          "description": "16/20"
+        },
+        "4": {
+          "value": "{core.const.gridInterval} * ceil({core.fontSize.4} * {core.lineHeightMultiplier.sm} / {core.const.gridInterval})",
+          "type": "lineHeights",
+          "description": "18.5/24"
+        },
+        "5": {
+          "value": "{core.const.gridInterval} * ceil({core.fontSize.5} * {core.lineHeightMultiplier.sm} / {core.const.gridInterval})",
+          "type": "lineHeights",
+          "description": "21/24"
+        },
+        "6": {
+          "value": "{core.const.gridInterval} * ceil({core.fontSize.6} * {core.lineHeightMultiplier.sm} / {core.const.gridInterval})",
+          "type": "lineHeights",
+          "description": "24.5/28"
+        },
+        "7": {
+          "value": "{core.const.gridInterval} * ceil({core.fontSize.7} * {core.lineHeightMultiplier.sm} / {core.const.gridInterval})",
+          "type": "lineHeights",
+          "description": "28/32"
+        },
+        "8": {
+          "value": "{core.const.gridInterval} * ceil({core.fontSize.8} * {core.lineHeightMultiplier.sm} / {core.const.gridInterval})",
+          "type": "lineHeights",
+          "description": "32/36"
+        },
+        "9": {
+          "value": "{core.const.gridInterval} * ceil({core.fontSize.9} * {core.lineHeightMultiplier.sm} / {core.const.gridInterval})",
+          "type": "lineHeights",
+          "description": "37/44"
+        }
+      },
+      "comfortable": {
+        "0": {
+          "value": "{core.const.gridInterval} * ceil({core.fontSize.0} * {core.lineHeightMultiplier.md} / {core.const.gridInterval})",
+          "type": "lineHeights",
+          "description": "10.5/16"
+        },
+        "1": {
+          "value": "{core.const.gridInterval} * ceil({core.fontSize.1} * {core.lineHeightMultiplier.md} / {core.const.gridInterval})",
+          "type": "lineHeights",
+          "description": "12/16"
+        },
+        "2": {
+          "value": "{core.const.gridInterval} * ceil({core.fontSize.2} * {core.lineHeightMultiplier.md} / {core.const.gridInterval})",
+          "type": "lineHeights",
+          "description": "14/16"
+        },
+        "3": {
+          "value": "{core.const.gridInterval} * ceil({core.fontSize.3} * {core.lineHeightMultiplier.md} / {core.const.gridInterval})",
+          "type": "lineHeights",
+          "description": "16/20"
+        },
+        "4": {
+          "value": "{core.const.gridInterval} * ceil({core.fontSize.4} * {core.lineHeightMultiplier.md} / {core.const.gridInterval})",
+          "type": "lineHeights",
+          "description": "18.5/24"
+        },
+        "5": {
+          "value": "{core.const.gridInterval} * ceil({core.fontSize.5} * {core.lineHeightMultiplier.md} / {core.const.gridInterval})",
+          "type": "lineHeights",
+          "description": "21/28"
+        },
+        "6": {
+          "value": "{core.const.gridInterval} * ceil({core.fontSize.6} * {core.lineHeightMultiplier.md} / {core.const.gridInterval})",
+          "type": "lineHeights",
+          "description": "24.5/32"
+        },
+        "7": {
+          "value": "{core.const.gridInterval} * ceil({core.fontSize.7} * {core.lineHeightMultiplier.md} / {core.const.gridInterval})",
+          "type": "lineHeights",
+          "description": "28/36"
+        },
+        "8": {
+          "value": "{core.const.gridInterval} * ceil({core.fontSize.8} * {core.lineHeightMultiplier.md} / {core.const.gridInterval})",
+          "type": "lineHeights",
+          "description": "32/40"
+        },
+        "9": {
+          "value": "{core.const.gridInterval} * ceil({core.fontSize.9} * {core.lineHeightMultiplier.md} / {core.const.gridInterval})",
+          "type": "lineHeights",
+          "description": "37/48"
+        }
+      },
+      "relaxed": {
+        "0": {
+          "value": "{core.const.gridInterval} * ceil({core.fontSize.0} * {core.lineHeightMultiplier.lg} / {core.const.gridInterval})",
+          "type": "lineHeights",
+          "description": "10.5/16"
+        },
+        "1": {
+          "value": "{core.const.gridInterval} * ceil({core.fontSize.1} * {core.lineHeightMultiplier.lg} / {core.const.gridInterval})",
+          "type": "lineHeights",
+          "description": "12/20"
+        },
+        "2": {
+          "value": "{core.const.gridInterval} * ceil({core.fontSize.2} * {core.lineHeightMultiplier.lg} / {core.const.gridInterval})",
+          "type": "lineHeights",
+          "description": "14/20"
+        },
+        "3": {
+          "value": "{core.const.gridInterval} * ceil({core.fontSize.3} * {core.lineHeightMultiplier.lg} / {core.const.gridInterval})",
+          "type": "lineHeights",
+          "description": "16/24"
+        },
+        "4": {
+          "value": "{core.const.gridInterval} * ceil({core.fontSize.4} * {core.lineHeightMultiplier.lg} / {core.const.gridInterval})",
+          "type": "lineHeights",
+          "description": "18.5/28"
+        },
+        "5": {
+          "value": "{core.const.gridInterval} * ceil({core.fontSize.5} * {core.lineHeightMultiplier.lg} / {core.const.gridInterval})",
+          "type": "lineHeights",
+          "description": "21/32"
+        },
+        "6": {
+          "value": "{core.const.gridInterval} * ceil({core.fontSize.6} * {core.lineHeightMultiplier.lg} / {core.const.gridInterval})",
+          "type": "lineHeights",
+          "description": "24.5/40"
+        },
+        "7": {
+          "value": "{core.const.gridInterval} * ceil({core.fontSize.7} * {core.lineHeightMultiplier.lg} / {core.const.gridInterval})",
+          "type": "lineHeights",
+          "description": "28/44"
+        },
+        "8": {
+          "value": "{core.const.gridInterval} * ceil({core.fontSize.8} * {core.lineHeightMultiplier.lg} / {core.const.gridInterval})",
+          "type": "lineHeights",
+          "description": "32/48"
+        },
+        "9": {
+          "value": "{core.const.gridInterval} * ceil({core.fontSize.9} * {core.lineHeightMultiplier.lg} / {core.const.gridInterval})",
+          "type": "lineHeights",
+          "description": "37/56"
+        }
+      }
+    },
+    "capHeight": {
+      "rounded": {
+        "0": {
+          "value": "roundTo({core.fontSize.0} * {core.fontMetrics.capHeight})",
+          "type": "other",
+          "description": "The cap height of the Equinor font in typescale 0, rounded to the nearest integer"
+        },
+        "1": {
+          "value": "roundTo({core.fontSize.1} * {core.fontMetrics.capHeight})",
+          "type": "other"
+        },
+        "2": {
+          "value": "roundTo({core.fontSize.2} * {core.fontMetrics.capHeight})",
+          "type": "other"
+        },
+        "3": {
+          "value": "roundTo({core.fontSize.3} * {core.fontMetrics.capHeight})",
+          "type": "other"
+        },
+        "4": {
+          "value": "roundTo({core.fontSize.4} * {core.fontMetrics.capHeight})",
+          "type": "other"
+        },
+        "5": {
+          "value": "roundTo({core.fontSize.5} * {core.fontMetrics.capHeight})",
+          "type": "other"
+        },
+        "6": {
+          "value": "roundTo({core.fontSize.6} * {core.fontMetrics.capHeight})",
+          "type": "other"
+        },
+        "7": {
+          "value": "roundTo({core.fontSize.7} * {core.fontMetrics.capHeight})",
+          "type": "other"
+        },
+        "8": {
+          "value": "roundTo({core.fontSize.8} * {core.fontMetrics.capHeight})",
+          "type": "other"
+        },
+        "9": {
+          "value": "roundTo({core.fontSize.9} * {core.fontMetrics.capHeight})",
+          "type": "other"
+        }
+      },
+      "snappedToGrid": {
+        "0": {
+          "value": "{core.const.gridInterval} * ceil({core.capHeight.rounded.0} / {core.const.gridInterval})",
+          "type": "other",
+          "description": "The cap height of the Equinor font in typescale 0, rounded to the nearest eds.core.grid line"
+        },
+        "1": {
+          "value": "{core.const.gridInterval} * ceil({core.capHeight.rounded.1} / {core.const.gridInterval})",
+          "type": "other"
+        },
+        "2": {
+          "value": "{core.const.gridInterval} * ceil({core.capHeight.rounded.2} / {core.const.gridInterval})",
+          "type": "other"
+        },
+        "3": {
+          "value": "{core.const.gridInterval} * ceil({core.capHeight.rounded.3} / {core.const.gridInterval})",
+          "type": "other"
+        },
+        "4": {
+          "value": "{core.const.gridInterval} * ceil({core.capHeight.rounded.4} / {core.const.gridInterval})",
+          "type": "other"
+        },
+        "5": {
+          "value": "{core.const.gridInterval} * ceil({core.capHeight.rounded.5} / {core.const.gridInterval})",
+          "type": "other"
+        },
+        "6": {
+          "value": "{core.const.gridInterval} * ceil({core.capHeight.rounded.6} / {core.const.gridInterval})",
+          "type": "other"
+        },
+        "7": {
+          "value": "{core.const.gridInterval} * ceil({core.capHeight.rounded.7} / {core.const.gridInterval})",
+          "type": "other"
+        },
+        "8": {
+          "value": "{core.const.gridInterval} * ceil({core.capHeight.rounded.8} / {core.const.gridInterval})",
+          "type": "other"
+        },
+        "9": {
+          "value": "{core.const.gridInterval} * ceil({core.capHeight.rounded.9} / {core.const.gridInterval})",
+          "type": "other"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "core": {
+    "borderRadii": {
+      "none": {
+        "value": "0",
+        "type": "borderRadius"
+      },
+      "rounded": {
+        "value": "floor({core.dimensionScale.base} * {core.dimensionScale.borderRadiusRatio})",
+        "type": "borderRadius"
+      }
+    }
+  }
+}

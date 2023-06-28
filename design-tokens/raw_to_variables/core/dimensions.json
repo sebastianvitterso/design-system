@@ -1,0 +1,106 @@
+{
+  "core": {
+    "sizingScale": {
+      "0": {
+        "value": "{core.sizingScale.1} - {core.const.gridInterval}"
+      },
+      "1": {
+        "value": "{core.sizingScale.2} - {core.const.gridInterval}"
+      },
+      "2": {
+        "value": "{core.sizingScale.3} - {core.const.gridInterval}"
+      },
+      "3": {
+        "value": "{core.sizingScale.4} - {core.const.gridInterval}"
+      },
+      "4": {
+        "value": "{core.sizingScale.5} - {core.const.gridInterval}"
+      },
+      "5": {
+        "value": "{core.sizingScale.6} - {core.const.gridInterval}"
+      },
+      "6": {
+        "value": "{core.const.gridInterval} * floor(16 * {core.dimensionScale.sizingMultiplier} ^(3/2) / {core.const.gridInterval})"
+      },
+      "7": {
+        "value": "{core.const.gridInterval} * floor(16 * {core.dimensionScale.sizingMultiplier} ^(4/2) / {core.const.gridInterval})"
+      },
+      "8": {
+        "value": "{core.const.gridInterval} * floor(16 * {core.dimensionScale.sizingMultiplier} ^(5/2) / {core.const.gridInterval})"
+      },
+      "9": {
+        "value": "{core.const.gridInterval} * floor(16 * {core.dimensionScale.sizingMultiplier} ^(6/2) / {core.const.gridInterval})"
+      },
+      "10": {
+        "value": "{core.const.gridInterval} * floor(16 * {core.dimensionScale.sizingMultiplier} ^(7/2) / {core.const.gridInterval})"
+      },
+      "11": {
+        "value": "{core.const.gridInterval} * floor(16 * {core.dimensionScale.sizingMultiplier} ^(8/2) / {core.const.gridInterval})"
+      },
+      "12": {
+        "value": "{core.const.gridInterval} * floor(16 * {core.dimensionScale.sizingMultiplier} ^(9/2) / {core.const.gridInterval})"
+      },
+      "13": {
+        "value": "{core.const.gridInterval} * floor(16 * {core.dimensionScale.sizingMultiplier} ^(10/2) / {core.const.gridInterval})"
+      },
+      "14": {
+        "value": "{core.const.gridInterval} * floor(16 * {core.dimensionScale.sizingMultiplier} ^(11/2) / {core.const.gridInterval})"
+      },
+      "15": {
+        "value": "{core.const.gridInterval} * floor(16 * {core.dimensionScale.sizingMultiplier} ^(12/2) / {core.const.gridInterval})"
+      },
+      "type": "sizing"
+    },
+    "spacingScale": {
+      "0": {
+        "value": "{core.sizingScale.0}"
+      },
+      "1": {
+        "value": "{core.sizingScale.1}"
+      },
+      "2": {
+        "value": "{core.sizingScale.2}"
+      },
+      "3": {
+        "value": "{core.sizingScale.3}"
+      },
+      "4": {
+        "value": "{core.sizingScale.4}"
+      },
+      "5": {
+        "value": "{core.sizingScale.5}"
+      },
+      "6": {
+        "value": "{core.sizingScale.6}"
+      },
+      "7": {
+        "value": "{core.sizingScale.7}"
+      },
+      "8": {
+        "value": "{core.sizingScale.8}"
+      },
+      "9": {
+        "value": "{core.sizingScale.9}"
+      },
+      "10": {
+        "value": "{core.sizingScale.10}"
+      },
+      "11": {
+        "value": "{core.sizingScale.11}"
+      },
+      "12": {
+        "value": "{core.sizingScale.12}"
+      },
+      "13": {
+        "value": "{core.sizingScale.13}"
+      },
+      "14": {
+        "value": "{core.sizingScale.14}"
+      },
+      "15": {
+        "value": "{core.sizingScale.15}"
+      },
+      "type": "spacing"
+    }
+  }
+}

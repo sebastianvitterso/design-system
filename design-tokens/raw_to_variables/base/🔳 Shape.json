@@ -1,0 +1,101 @@
+{
+  "semantic": {
+    "shape": {
+      "rounded": {
+        "medium": {
+          "all": {
+            "value": {
+              "borderRadius": "{core.borderRadii.rounded}"
+            },
+            "type": "composition"
+          },
+          "top": {
+            "value": {
+              "borderRadiusTopLeft": "{core.borderRadii.rounded}",
+              "borderRadiusTopRight": "{core.borderRadii.rounded}",
+              "borderRadiusBottomLeft": "{core.borderRadii.none}",
+              "borderRadiusBottomRight": "{core.borderRadii.none}"
+            },
+            "type": "composition"
+          },
+          "bottom": {
+            "value": {
+              "borderRadiusTopLeft": "{core.borderRadii.none}",
+              "borderRadiusTopRight": "{core.borderRadii.none}",
+              "borderRadiusBottomLeft": "{core.borderRadii.rounded}",
+              "borderRadiusBottomRight": "{core.borderRadii.rounded}"
+            },
+            "type": "composition"
+          },
+          "left": {
+            "value": {
+              "borderRadiusTopLeft": "{core.borderRadii.rounded}",
+              "borderRadiusTopRight": "{core.borderRadii.none}",
+              "borderRadiusBottomLeft": "{core.borderRadii.rounded}",
+              "borderRadiusBottomRight": "{core.borderRadii.none}"
+            },
+            "type": "composition"
+          },
+          "right": {
+            "value": {
+              "borderRadiusTopLeft": "{core.borderRadii.none}",
+              "borderRadiusTopRight": "{core.borderRadii.rounded}",
+              "borderRadiusBottomLeft": "{core.borderRadii.none}",
+              "borderRadiusBottomRight": "{core.borderRadii.rounded}"
+            },
+            "type": "composition"
+          }
+        }
+      },
+      "square": {
+        "medium": {
+          "all": {
+            "value": {
+              "borderRadius": "{core.borderRadii.none}"
+            },
+            "type": "composition"
+          }
+        }
+      },
+      "button": {
+        "value": {
+          "height": "{core.dimensionScale.base}",
+          "horizontalPadding": "{core.sizingScale.3}",
+          "borderRadius": "{semantic.shape.rounded.medium.all.borderRadius}",
+          "verticalPadding": "0",
+          "width": "100"
+        },
+        "type": "composition",
+        "description": "Don’t use the width value\n\n{\"touchTarget\": \"44px\"}"
+      },
+      "actionButton": {
+        "value": {
+          "height": "{semantic.shape.button.height}+{core.const.gridInterval}",
+          "borderRadius": "{semantic.shape.actionButton.height} / 2",
+          "width": "{semantic.shape.actionButton.height}"
+        },
+        "type": "composition"
+      },
+      "icon": {
+        "value": {
+          "sizing": "{core.const.gridInterval} * ceil({core.dimensionScale.base} / {core.dimensionScale.densityMultiplier} / {core.const.gridInterval})"
+        },
+        "type": "composition"
+      },
+      "dot": {
+        "value": {
+          "sizing": "2 * floor({core.dimensionScale.base} / 4 / 2)"
+        },
+        "type": "composition"
+      }
+    },
+    "documentation": {
+      "shape": {
+        "width": {
+          "value": "100",
+          "type": "sizing"
+        }
+      }
+    }
+  }
+}

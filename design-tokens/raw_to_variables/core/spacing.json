@@ -1,0 +1,176 @@
+{
+  "core": {
+    "spacing": {
+      "0": {
+        "value": "0",
+        "type": "spacing"
+      },
+      "1": {
+        "value": "1",
+        "type": "spacing"
+      },
+      "2": {
+        "value": "2",
+        "type": "spacing"
+      },
+      "3": {
+        "value": "3",
+        "type": "spacing"
+      },
+      "4": {
+        "value": "4",
+        "type": "spacing"
+      },
+      "5": {
+        "value": "5",
+        "type": "spacing"
+      },
+      "6": {
+        "value": "6",
+        "type": "spacing"
+      },
+      "7": {
+        "value": "7",
+        "type": "spacing"
+      },
+      "8": {
+        "value": "8",
+        "type": "spacing"
+      },
+      "9": {
+        "value": "9",
+        "type": "spacing"
+      },
+      "10": {
+        "value": "10",
+        "type": "spacing"
+      },
+      "11": {
+        "value": "11",
+        "type": "spacing"
+      },
+      "12": {
+        "value": "12",
+        "type": "spacing"
+      },
+      "13": {
+        "value": "13",
+        "type": "spacing"
+      },
+      "14": {
+        "value": "14",
+        "type": "spacing"
+      },
+      "15": {
+        "value": "15",
+        "type": "spacing"
+      },
+      "16": {
+        "value": "16",
+        "type": "spacing"
+      },
+      "17": {
+        "value": "17",
+        "type": "spacing"
+      },
+      "18": {
+        "value": "18",
+        "type": "spacing"
+      },
+      "19": {
+        "value": "19",
+        "type": "spacing"
+      },
+      "20": {
+        "value": "20",
+        "type": "spacing"
+      }
+    },
+    "grid": {
+      "0": {
+        "value": "{core.const.gridInterval}*0",
+        "type": "other"
+      },
+      "1": {
+        "value": "{core.const.gridInterval}*1",
+        "type": "other"
+      },
+      "2": {
+        "value": "{core.const.gridInterval}*2",
+        "type": "other"
+      },
+      "3": {
+        "value": "{core.const.gridInterval}*3",
+        "type": "other"
+      },
+      "4": {
+        "value": "{core.const.gridInterval}*4",
+        "type": "other"
+      },
+      "5": {
+        "value": "{core.const.gridInterval}*5",
+        "type": "other"
+      },
+      "6": {
+        "value": "{core.const.gridInterval}*6",
+        "type": "other"
+      },
+      "7": {
+        "value": "{core.const.gridInterval}*7",
+        "type": "other"
+      },
+      "8": {
+        "value": "{core.const.gridInterval}*8",
+        "type": "other"
+      },
+      "9": {
+        "value": "{core.const.gridInterval}*9",
+        "type": "other"
+      },
+      "10": {
+        "value": "{core.const.gridInterval}*10",
+        "type": "other"
+      },
+      "11": {
+        "value": "{core.const.gridInterval}*11",
+        "type": "other"
+      },
+      "12": {
+        "value": "{core.const.gridInterval}*12",
+        "type": "other"
+      },
+      "13": {
+        "value": "{core.const.gridInterval}*13",
+        "type": "other"
+      },
+      "14": {
+        "value": "{core.const.gridInterval}*14",
+        "type": "other"
+      },
+      "15": {
+        "value": "{core.const.gridInterval}*15",
+        "type": "other"
+      },
+      "16": {
+        "value": "{core.const.gridInterval}*16",
+        "type": "other"
+      },
+      "17": {
+        "value": "{core.const.gridInterval}*17",
+        "type": "other"
+      },
+      "18": {
+        "value": "{core.const.gridInterval}*18",
+        "type": "other"
+      },
+      "19": {
+        "value": "{core.const.gridInterval}*19",
+        "type": "other"
+      },
+      "20": {
+        "value": "{core.const.gridInterval}*20",
+        "type": "other"
+      }
+    }
+  }
+}

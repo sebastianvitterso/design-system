@@ -1,0 +1,61 @@
+{
+  "component": {
+    "button": {
+      "border-filled": {
+        "value": "0",
+        "type": "borderWidth"
+      },
+      "border-outlined": {
+        "value": "1",
+        "type": "borderWidth"
+      },
+      "border-ghost": {
+        "value": "0",
+        "type": "borderWidth"
+      },
+      "elements": {
+        "label": {
+          "value": {
+            "horizontalPadding": "{semantic.shape.button.horizontalPadding} / 4",
+            "typography": "{semantic.label.md}",
+            "verticalPadding": "({semantic.shape.button.height} - {semantic.label.md.lineHeight}) / 2",
+            "itemSpacing": "0"
+          },
+          "type": "composition"
+        },
+        "progress": {
+          "value": {
+            "horizontalPadding": "{semantic.shape.button.horizontalPadding} / 4",
+            "typography": "{semantic.label.md}",
+            "itemSpacing": "4",
+            "height": "{semantic.shape.button.height}",
+            "verticalPadding": "0"
+          },
+          "type": "composition"
+        },
+        "container": {
+          "value": {
+            "borderRadius": "{semantic.shape.button.borderRadius}",
+            "horizontalPadding": "{semantic.shape.button.horizontalPadding} - {component.button.elements.label.horizontalPadding}",
+            "verticalPadding": "0",
+            "itemSpacing": "0",
+            "asset": "{semantic.shape.button.height}"
+          },
+          "type": "composition"
+        },
+        "icon": {
+          "value": {
+            "sizing": "{semantic.shape.icon.sizing}"
+          },
+          "type": "composition"
+        },
+        "test": {
+          "value": {
+            "fill": "{core.color.blueOcean.800}"
+          },
+          "type": "composition"
+        }
+      }
+    }
+  }
+}
