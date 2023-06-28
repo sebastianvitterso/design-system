@@ -1,7 +1,5 @@
 {
-  "core": {
-    "color": {
-      "neutrals": {
+      "Neutrals": {
         "0": {
           "$value": "#ffffff",
           "$type": "color"
@@ -75,7 +73,7 @@
           "$type": "color"
         }
       },
-      "slateGrey": {
+      "Slate Grey": {
         "100": {
           "$value": "#F3F5F6",
           "$type": "color"
@@ -137,7 +135,7 @@
           "$type": "color"
         }
       },
-      "slateBlueEds": {
+      "Slate Blue EDS": {
         "100": {
           "$value": "#F0F6FA",
           "$type": "color"
@@ -203,7 +201,7 @@
           "$type": "color"
         }
       },
-      "blueGrey": {
+      "Blue Grey": {
         "100": {
           "$value": "#F0F6FA",
           "$type": "color"
@@ -269,7 +267,7 @@
           "$type": "color"
         }
       },
-      "mistBluegrey": {
+      "Mist Blue Grey": {
         "100": {
           "$value": "#EDF7FD",
           "$type": "color"
@@ -331,7 +329,7 @@
           "$type": "color"
         }
       },
-      "mistBlueEds": {
+      "Mist Blue EDS": {
         "100": {
           "$value": "#EDF8FD",
           "$type": "color"
@@ -389,7 +387,7 @@
           "$type": "color"
         }
       },
-      "mistBlueBrand": {
+      "Mist Blue Brand": {
         "100": {
           "$value": "#EBF9FF",
           "$type": "color"
@@ -447,7 +445,7 @@
           "$type": "color"
         }
       },
-      "blueSky": {
+      "Blue Sky": {
         "100": {
           "$value": "#EBF7FF",
           "$type": "color"
@@ -505,7 +503,7 @@
           "$type": "color"
         }
       },
-      "blueOcean": {
+      "Blue Ocean": {
         "100": {
           "$value": "#E9F1FD",
           "$type": "color"
@@ -563,7 +561,7 @@
           "$type": "color"
         }
       },
-      "deepPurple": {
+      "Deep Purple": {
         "100": {
           "$value": "#F5EBFE",
           "$type": "color"
@@ -621,7 +619,7 @@
           "$type": "color"
         }
       },
-      "purple": {
+      "Purple": {
         "100": {
           "$value": "#F8EBFE",
           "$type": "color"
@@ -679,7 +677,7 @@
           "$type": "color"
         }
       },
-      "fuchsia": {
+      "Fuchsia": {
         "100": {
           "$value": "#FEEBFA",
           "$type": "color"
@@ -737,7 +735,7 @@
           "$type": "color"
         }
       },
-      "oldPink": {
+      "Old Pink": {
         "100": {
           "$value": "#FEEBF6",
           "$type": "color"
@@ -795,7 +793,7 @@
           "$type": "color"
         }
       },
-      "magentaRed": {
+      "Magenta Red": {
         "100": {
           "$value": "#FEEBF2",
           "$type": "color"
@@ -853,7 +851,7 @@
           "$type": "color"
         }
       },
-      "pinkXBrand": {
+      "Pink X Brand": {
         "100": {
           "$value": "#FEECEF",
           "$type": "color"
@@ -911,7 +909,7 @@
           "$type": "color"
         }
       },
-      "redCold": {
+      "Red Cold": {
         "100": {
           "$value": "#FFECEE",
           "$type": "color"
@@ -969,7 +967,7 @@
           "$type": "color"
         }
       },
-      "redWarmer": {
+      "Red Warm": {
         "100": {
           "$value": "#FFECEC",
           "$type": "color"
@@ -1027,7 +1025,7 @@
           "$type": "color"
         }
       },
-      "spruceWood": {
+      "Spruce Wood": {
         "100": {
           "$value": "#FFF0E5",
           "$type": "color"
@@ -1085,7 +1083,7 @@
           "$type": "color"
         }
       },
-      "orange": {
+      "Orange": {
         "100": {
           "$value": "#FFF3E5",
           "$type": "color"
@@ -1143,7 +1141,7 @@
           "$type": "color"
         }
       },
-      "ochre": {
+      "Ochre": {
         "100": {
           "$value": "#FFF5E5",
           "$type": "color"
@@ -1201,7 +1199,7 @@
           "$type": "color"
         }
       },
-      "yellow": {
+      "Yellow": {
         "100": {
           "$value": "#FFFAE0",
           "$type": "color"
@@ -1259,7 +1257,7 @@
           "$type": "color"
         }
       },
-      "successGreen": {
+      "SuccessGreen": {
         "100": {
           "$value": "#ECF9EC",
           "$type": "color"
@@ -1317,7 +1315,7 @@
           "$type": "color"
         }
       },
-      "lichenGreen": {
+      "LichenGreen": {
         "100": {
           "$value": "#E6FAEC",
           "$type": "color"
@@ -1375,7 +1373,7 @@
           "$type": "color"
         }
       },
-      "mossGreen1": {
+      "Moss Green 1": {
         "100": {
           "$value": "#E6F3F4",
           "$type": "color"
@@ -1433,7 +1431,7 @@
           "$type": "color"
         }
       },
-      "mossGreen2": {
+      "Moss Green 2": {
         "100": {
           "$value": "#E0F4F5",
           "$type": "color"
@@ -1491,6 +1489,4 @@
           "$type": "color"
         }
       }
-    }
-  }
 }
