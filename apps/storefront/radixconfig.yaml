@@ -1,0 +1,20 @@
+apiVersion: radix.equinor.com/v1
+kind: RadixApplication
+metadata:
+  name: storefront
+spec:
+  environments:
+    - name: dev
+      build:
+        from: feature/storefront
+    - name: test
+    - name: prod
+  components:
+    - name: web
+      publicPort: http
+      ports:
+        - name: http
+          port: 8080
+  dnsAppAlias:
+    environment: prod
+    component: web
