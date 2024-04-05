@@ -41,10 +41,11 @@ export default defineType({
       ],
     }),
     defineField({
-      name: 'categories',
-      title: 'Categories',
-      type: 'array',
-      of: [{ type: 'reference', to: { type: 'category' } }],
+      name: 'category',
+      title: 'Category',
+      description: 'The category defines where this document lives',
+      type: 'reference',
+      to: { type: 'category' },
     }),
     defineField({
       name: 'publishedAt',
