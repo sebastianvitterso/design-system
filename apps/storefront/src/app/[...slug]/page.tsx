@@ -42,7 +42,7 @@ export default async function Page({ params }: { params: { slug: string[] } }) {
       <article className="mx-auto container pt-14">
         <span>Category</span>
         <div className="mb-14">
-          <h1 className="text-6xl">{category?.title}</h1>
+          <h1 className="text-6xl mb-4">{category?.title}</h1>
           <p>{category?.description}</p>
         </div>
         <div className="flex flex-col gap-12">
