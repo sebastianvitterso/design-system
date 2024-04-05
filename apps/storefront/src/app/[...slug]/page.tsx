@@ -1,7 +1,7 @@
 import { sanityFetch } from '@/utils/sanityFetch'
 import { groq } from 'next-sanity'
 import { notFound } from 'next/navigation'
-import { Document, Post } from '@/types'
+import { Document, Post, Category } from '@/types'
 import Link from 'next/link'
 import Image from 'next/image'
 import { urlForImage } from '../../../sanity/lib/image'
@@ -16,7 +16,6 @@ export default async function Page({ params }: { params: { slug: string[] } }) {
     params: {
       slug,
     },
-    revalidate: 30, // in seconds
   })
 
   if (!document) {
@@ -52,7 +51,10 @@ export default async function Page({ params }: { params: { slug: string[] } }) {
               <ul>
                 {categories.map((category) => (
                   <li key={category._id}>
-                    <Link href={category?.slug?.current} className="underline">
+                    <Link
+                      href={category?.slug?.current || ''}
+                      className="underline"
+                    >
                       {category?.title}
                     </Link>
                   </li>
@@ -66,7 +68,10 @@ export default async function Page({ params }: { params: { slug: string[] } }) {
               <ul>
                 {posts.map((post) => (
                   <li key={post._id}>
-                    <Link href={post?.slug?.current} className="underline">
+                    <Link
+                      href={post?.slug?.current || ''}
+                      className="underline"
+                    >
                       {post?.title}
                     </Link>
                   </li>
@@ -88,15 +93,15 @@ export default async function Page({ params }: { params: { slug: string[] } }) {
           src={urlForImage(post.mainImage)}
           width="1600"
           height="900"
-          alt={post.mainImage?.alt}
+          alt={post.mainImage?.alt as string}
           className="mb-14"
         />
       ) : (
         <div className="post__cover--none" />
       )}
       <span>Post</span>
-      <h1 className="text-6xl">{document?.title}</h1>
-      {document?.body && <PortableText value={document?.body} />}
+      <h1 className="text-6xl">{post?.title}</h1>
+      {post?.body && <PortableText value={post?.body} />}
     </article>
   )
 }

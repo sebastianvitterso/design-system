@@ -1,4 +1,5 @@
 import { PortableTextBlock } from '@portabletext/types'
+import { Image } from 'sanity'
 
 export type Document = {
   _id: string
@@ -15,6 +16,7 @@ export type Document = {
 export type Post = {
   _id: string
   title?: string
+  mainImage?: Image
   slug?: {
     current: string
   }
