@@ -4,3 +4,8 @@
 **/azure-pipelines*
 **/dist
 **/Dockerfile*
+**/.vscode
+**/radixconfig.yaml
+**/.env
+**/.gitignore
+**/.eslintrc.json
