@@ -3,6 +3,10 @@ kind: RadixApplication
 metadata:
   name: storefront
 spec:
+  secrets:
+    - NEXT_PUBLIC_SANITY_API_VERSION
+    - NEXT_PUBLIC_SANITY_DATASET
+    - NEXT_PUBLIC_SANITY_PROJECT_ID
   environments:
     - name: dev
       build:
