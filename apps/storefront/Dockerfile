@@ -5,7 +5,7 @@ RUN apk add --no-cache libc6-compat
 
 WORKDIR /app
 
-COPY package.json pnpm-lock.yaml pnpm-workspace.yaml tsconfig.base.json ./
+COPY package.json pnpm-lock.yaml pnpm-workspace.yaml tsconfig.base.json apps/storefront/.npmrc ./
 COPY apps/storefront/package.json apps/storefront/
 RUN npm install -g pnpm
 
@@ -22,29 +22,35 @@ ENV NEXT_PUBLIC_SANITY_PROJECT_ID ${ARG_SANITY_PROJECT_ID}
 ENV SANITY_API_TOKEN ${ARG_SANITY_API_TOKEN}
 
 RUN pnpm run build:storefront
-RUN pnpm deploy --filter @equinor/storefront --prod foo
+#RUN pnpm deploy --filter @equinor/storefront --prod foo
 
-# FROM node:18-alpine AS runner
-# WORKDIR /app
+FROM node:18-alpine AS runner
+WORKDIR /app
 
-# ENV NODE_ENV production
+ENV NODE_ENV production
 
-# RUN addgroup --system --gid 1001 nodejs
-# RUN adduser --system --uid 1001 nextjs
+RUN addgroup --system --gid 1001 nodejs
+RUN adduser --system --uid 1001 nextjs
 
-# COPY --from=builder /app/apps/storefront/public ./public
+COPY --from=builder /app/apps/storefront/public ./public
 
-# RUN mkdir .next
-# RUN chown nextjs:nodejs .next
+RUN mkdir .next
+RUN chown nextjs:nodejs .next
+# RUN mkdir node_modules
+# RUN chown nextjs:nodejs node_modules
 
-# COPY --from=builder --chown=nextjs:nodejs /app/apps/storefront/.next/standalone ./apps/storefront
-# COPY --from=builder --chown=nextjs:nodejs /app/apps/storefront/.next/static ./.next/static
+COPY --from=builder --chown=nextjs:nodejs /app/apps/storefront/.next/standalone/apps/storefront .
+COPY --from=builder --chown=nextjs:nodejs /app/apps/storefront/.next/static ./.next/static
+# COPY --from=builder --chown=nextjs:nodejs /app/node_modules/next ./node_modules/next
+# COPY --from=builder --chown=nextjs:nodejs /app/node_modules/react ./node_modules/react
+COPY --from=builder --chown=nextjs:nodejs /app/node_modules ./node_modules
 
-# USER nextjs
 
-# EXPOSE 3000
+USER nextjs
 
-# ENV PORT 3000
+EXPOSE 3000
 
-# CMD HOSTNAME="0.0.0.0" node apps/storefront/server.js
+ENV PORT 3000
+
+CMD HOSTNAME="0.0.0.0" node server.js
 
